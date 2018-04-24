@@ -1,10 +1,4 @@
 # main links
 main:
-  - title: "Consulting"
-    url: /tech/consulting
-  - title: "DevOps"
-    url: /tech/devops
-  - title: "VR"
-    url: /tech/vr
   - title: "Contact"
-    url: /contact
+    url: http://www.lightenna.com/contact
