@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="http://www.alexstanhope.com"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>Alex Stanhope</title>
+ <link>http://www.alexstanhope.com</link>
+ <description></description>
+ <language>en</language>
+<item>
+ <title>Tech Lab (Innovation)</title>
+ <link>http://www.alexstanhope.com/blog/business/241/tech-lab-innovation</link>
+ <description>&lt;p&gt;Making reactions ‘go’ is a curious science.  Powerpoint presenters love the idea of a catalyst – something that accelerates a reaction but can be recovered afterwards, chemically unchanged - but if anyone ever did that Chemistry experiment with the hydrogen peroxide and the liver, catalysts are not so sexy in real life.&lt;/p&gt;
+&lt;p&gt;TechLab Innovation is catalytic.  We look to find parts of the business with the right mixture of ingredients (resources, business problem, realisable value/cost saving).  It&#039;s a challenging pursuit but it creates good outcomes.&lt;/p&gt;
+</description>
+ <category domain=/blog/business">business</category>
+ <pubDate>Mon, 06 Mar 2017 10:30:28 +0000</pubDate>
+ <dc:creator>admin</dc:creator>
+ <guid isPermaLink="false">241 at http://www.alexstanhope.com</guid>
+</item>
+<item>
+ <title>Proactive and retro-active reuse</title>
+ <link>http://www.alexstanhope.com/blog/business/240/proactive-and-retro-active-reuse</link>
+ <description>&lt;p&gt;&quot;All I need to make a comedy is a park, a policeman and a pretty girl.&quot; - Charlie Chaplin&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.alexstanhope.com/blog/business/240/proactive-and-retro-active-reuse&quot; target=&quot;_blank&quot;&gt;read more&lt;/a&gt;&lt;/p&gt;</description>
+ <category domain=/blog/business">business</category>
+ <pubDate>Mon, 27 Feb 2017 10:28:30 +0000</pubDate>
+ <dc:creator>admin</dc:creator>
+ <guid isPermaLink="false">240 at http://www.alexstanhope.com</guid>
+</item>
+<item>
+ <title>Innovation is hard</title>
+ <link>http://www.alexstanhope.com/blog/business/239/innovation-hard</link>
+ <description>&lt;p&gt;Today SpaceX sent a rocket into orbit.  Between now and Wednesday, it will drift its way to the International Space Station where it will deliver its cargo payload as part of a resupply operation.  &#039;Dragon&#039; is the first time a commercial body has launched such a groundbreaking mission.  The reusable SpaceX rocket booster that lofted Dragon into the heavens successfully returned to earth intact too!&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.alexstanhope.com/blog/business/239/innovation-hard&quot; target=&quot;_blank&quot;&gt;read more&lt;/a&gt;&lt;/p&gt;</description>
+ <category domain=/blog/business">business</category>
+ <pubDate>Tue, 21 Feb 2017 10:26:36 +0000</pubDate>
+ <dc:creator>admin</dc:creator>
+ <guid isPermaLink="false">239 at http://www.alexstanhope.com</guid>
+</item>
+<item>
+ <title>Tech Lab (Delivery)</title>
+ <link>http://www.alexstanhope.com/blog/business/238/tech-lab-delivery</link>
+ <description>&lt;p&gt;Reuse sounds great.  We like reuse.  Reuse means less duplication.  Ensuring that wheel-like objects are not invented all over DWP’s Digital landscape seems like time well-spent.  O that avoiding the reinvention of many round rolling things were as simple as saying “don’t reinvent the wheel.”&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.alexstanhope.com/blog/business/238/tech-lab-delivery&quot; target=&quot;_blank&quot;&gt;read more&lt;/a&gt;&lt;/p&gt;</description>
+ <category domain=/blog/business">business</category>
+ <pubDate>Mon, 06 Feb 2017 10:24:33 +0000</pubDate>
+ <dc:creator>admin</dc:creator>
+ <guid isPermaLink="false">238 at http://www.alexstanhope.com</guid>
+</item>
+<item>
+ <title>Default colours for vis.js</title>
+ <link>http://www.alexstanhope.com/blog/technology/237/default-colours-visjs</link>
+ <description>&lt;p&gt;vis.js is great.  Here are the colours it uses for traces by default:&lt;/p&gt;
+&lt;p&gt;blue: #4f81bd&lt;br /&gt;
+orange: #f79646&lt;br /&gt;
+green: #75c841&lt;br /&gt;
+purple: #8c51cf&lt;/p&gt;
+&lt;p&gt;Update: found a much longer list in the source code:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.alexstanhope.com/blog/technology/237/default-colours-visjs&quot; target=&quot;_blank&quot;&gt;read more&lt;/a&gt;&lt;/p&gt;</description>
+ <category domain=/blog/technology">technology</category>
+ <pubDate>Thu, 17 Sep 2015 13:22:07 +0000</pubDate>
+ <dc:creator>admin</dc:creator>
+ <guid isPermaLink="false">237 at http://www.alexstanhope.com</guid>
+</item>
+<item>
+ <title>How to tell VMware player to DHCP an IP to a MAC address</title>
+ <link>http://www.alexstanhope.com/blog/technology/236/how-tell-vmware-player-dhcp-ip-mac-address</link>
+ <description>&lt;p&gt;Open C:\ProgramData\VMware\vmnetdhcp.conf&lt;/p&gt;
+&lt;p&gt;Add a host entry at the end&lt;/p&gt;
+&lt;p&gt;host elan {&lt;br /&gt;
+    hardware ethernet 00:0c:29:fc:b0:f6;&lt;br /&gt;
+    fixed-address 10.12.2.160;&lt;br /&gt;
+}&lt;/p&gt;
+&lt;p&gt;Don&#039;t worry about the vmnetdhcp.leases files.  They seem to be the active ones, but .conf is the master source.&lt;/p&gt;
+</description>
+ <category domain=/blog/technology">technology</category>
+ <pubDate>Sat, 08 Aug 2015 05:48:46 +0000</pubDate>
+ <dc:creator>admin</dc:creator>
+ <guid isPermaLink="false">236 at http://www.alexstanhope.com</guid>
+</item>
+<item>
+ <title>Shopify vulnerability reported in PCI DSS scan</title>
+ <link>http://www.alexstanhope.com/blog/technology/235/shopify-vulnerability-reported-pci-dss-scan</link>
+ <description>&lt;p&gt;Having migrated CultureLabel over to Shopify, I&#039;m now ticking the boxes.  Qualy&#039;s PCI is reporting a single failure: TCP Source Port Pass Firewall.&lt;/p&gt;
+</description>
+ <category domain=/blog/technology">technology</category>
+ <enclosure url=/system/files/Shopify_PCI_scan_result_20150708.pdf" length="179615" type="application/pdf" />
+ <pubDate>Wed, 08 Jul 2015 15:50:10 +0000</pubDate>
+ <dc:creator>admin</dc:creator>
+ <guid isPermaLink="false">235 at http://www.alexstanhope.com</guid>
+</item>
+<item>
+ <title>Record set for most profitable Sim City</title>
+ <link>http://www.alexstanhope.com/blog/fun/234/record-set-most-profitable-sim-city</link>
+ <description>&lt;p&gt;I&#039;ve been playing Sim City 2013 a bit recently and while irked by some of the bugs, I have enjoyed it.  I&#039;ve worked out how to turn a profit and then scaled that up to claim the top spot on the trading leaderboard.  My city &#039;Plasticity&#039; earns near four times the income of the second place.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/system/files/top-trading-spot-0rigina1ex.jpg&quot;&gt;&lt;img style=&quot;width: 400px;&quot; src=&quot;/system/files/top-trading-spot-0rigina1ex.jpg&quot; alt=&quot;Sim City leaderboard for trading&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Now if I can just work out how to scale my start-up in the same way....&lt;/p&gt;
+</description>
+ <category domain=/blog/fun">fun</category>
+ <enclosure url=/system/files/top-trading-spot-0rigina1ex.jpg" length="225916" type="image/jpeg" />
+ <pubDate>Wed, 15 Oct 2014 20:41:13 +0000</pubDate>
+ <dc:creator>admin</dc:creator>
+ <guid isPermaLink="false">234 at http://www.alexstanhope.com</guid>
+</item>
+<item>
+ <title>Simcity (2013) ruined by bugs</title>
+ <link>http://www.alexstanhope.com/blog/fun/233/simcity-2013-ruined-bugs</link>
+ <description>&lt;p&gt;I love &lt;a href=&quot;http://www.simcity.com/en_GB&quot;&gt;Simcity&lt;/a&gt;.  It&#039;s like programming, but substantially easier and more rewarding in the short-term.  Maxis has produced some great versions of the game over the last 30 years, and Simcity 2013 is almost no exception.  Unfortunately it&#039;s let down by the bugs.&lt;/p&gt;
+&lt;p&gt;This screenshot shows a theoretically impossible situation: two oil mines with full storage and two fuel production lines at the oil refinery in dire need of oil. This situation persisted for a Sim month.  The two sites were properly connected.  All local trade depots were capable of exporting all the affected resources and all were empty.  This came about after I upgraded the density of the road outside the depot.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/system/files/bugs-kill-simcity.jpg&quot;&gt;&lt;img src=&quot;/system/files/bugs-kill-simcity.jpg&quot; style=&quot;width: 400px;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.alexstanhope.com/blog/fun/233/simcity-2013-ruined-bugs&quot; target=&quot;_blank&quot;&gt;read more&lt;/a&gt;&lt;/p&gt;</description>
+ <category domain=/blog/fun">fun</category>
+ <enclosure url=/system/files/bugs-kill-simcity.jpg" length="596319" type="image/jpeg" />
+ <pubDate>Mon, 23 Jun 2014 06:48:29 +0000</pubDate>
+ <dc:creator>admin</dc:creator>
+ <guid isPermaLink="false">233 at http://www.alexstanhope.com</guid>
+</item>
+<item>
+ <title>Cygwin-based rsync without destroying permissions</title>
+ <link>http://www.alexstanhope.com/blog/technology/232/cygwin-based-rsync-without-destroying-permissions</link>
+ <description>&lt;p&gt;I use rsync to keep my drives backed up under Windows 7 (using Cygwin).  Windows permissions were getting messed up, but the solution was to disable ACL within Cygwin.  I inserted this line into /etc/fstab.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;&lt;br /&gt;
+none /cygdrive cygdrive binary,posix=0,user,noacl 0 0&lt;br /&gt;
+&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;There was no need to change the rsync command itself:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;&lt;br /&gt;
+rsync -avn --stats &amp;lt;source&amp;gt; &amp;lt;destination&amp;gt;&lt;br /&gt;
+&lt;/code&gt;&lt;/p&gt;
+</description>
+ <category domain=/blog/technology">technology</category>
+ <pubDate>Sun, 27 Apr 2014 07:14:15 +0000</pubDate>
+ <dc:creator>admin</dc:creator>
+ <guid isPermaLink="false">232 at http://www.alexstanhope.com</guid>
+</item>
+</channel>
+</rss>

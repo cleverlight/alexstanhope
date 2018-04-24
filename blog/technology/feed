@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="http://www.alexstanhope.com"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>Alex Stanhope - technology</title>
+ <link>http://www.alexstanhope.com/taxonomy/term/1/0</link>
+ <description></description>
+ <language>en</language>
+<item>
+ <title>Default colours for vis.js</title>
+ <link>http://www.alexstanhope.com/blog/technology/237/default-colours-visjs</link>
+ <description>&lt;p&gt;vis.js is great.  Here are the colours it uses for traces by default:&lt;/p&gt;
+&lt;p&gt;blue: #4f81bd&lt;br /&gt;
+orange: #f79646&lt;br /&gt;
+green: #75c841&lt;br /&gt;
+purple: #8c51cf&lt;/p&gt;
+&lt;p&gt;Update: found a much longer list in the source code:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.alexstanhope.com/blog/technology/237/default-colours-visjs&quot; target=&quot;_blank&quot;&gt;read more&lt;/a&gt;&lt;/p&gt;</description>
+ <category domain=/blog/technology">technology</category>
+ <pubDate>Thu, 17 Sep 2015 13:22:07 +0000</pubDate>
+ <dc:creator>admin</dc:creator>
+ <guid isPermaLink="false">237 at http://www.alexstanhope.com</guid>
+</item>
+<item>
+ <title>How to tell VMware player to DHCP an IP to a MAC address</title>
+ <link>http://www.alexstanhope.com/blog/technology/236/how-tell-vmware-player-dhcp-ip-mac-address</link>
+ <description>&lt;p&gt;Open C:\ProgramData\VMware\vmnetdhcp.conf&lt;/p&gt;
+&lt;p&gt;Add a host entry at the end&lt;/p&gt;
+&lt;p&gt;host elan {&lt;br /&gt;
+    hardware ethernet 00:0c:29:fc:b0:f6;&lt;br /&gt;
+    fixed-address 10.12.2.160;&lt;br /&gt;
+}&lt;/p&gt;
+&lt;p&gt;Don&#039;t worry about the vmnetdhcp.leases files.  They seem to be the active ones, but .conf is the master source.&lt;/p&gt;
+</description>
+ <category domain=/blog/technology">technology</category>
+ <pubDate>Sat, 08 Aug 2015 05:48:46 +0000</pubDate>
+ <dc:creator>admin</dc:creator>
+ <guid isPermaLink="false">236 at http://www.alexstanhope.com</guid>
+</item>
+<item>
+ <title>Shopify vulnerability reported in PCI DSS scan</title>
+ <link>http://www.alexstanhope.com/blog/technology/235/shopify-vulnerability-reported-pci-dss-scan</link>
+ <description>&lt;p&gt;Having migrated CultureLabel over to Shopify, I&#039;m now ticking the boxes.  Qualy&#039;s PCI is reporting a single failure: TCP Source Port Pass Firewall.&lt;/p&gt;
+</description>
+ <category domain=/blog/technology">technology</category>
+ <enclosure url=/system/files/Shopify_PCI_scan_result_20150708.pdf" length="179615" type="application/pdf" />
+ <pubDate>Wed, 08 Jul 2015 15:50:10 +0000</pubDate>
+ <dc:creator>admin</dc:creator>
+ <guid isPermaLink="false">235 at http://www.alexstanhope.com</guid>
+</item>
+<item>
+ <title>Cygwin-based rsync without destroying permissions</title>
+ <link>http://www.alexstanhope.com/blog/technology/232/cygwin-based-rsync-without-destroying-permissions</link>
+ <description>&lt;p&gt;I use rsync to keep my drives backed up under Windows 7 (using Cygwin).  Windows permissions were getting messed up, but the solution was to disable ACL within Cygwin.  I inserted this line into /etc/fstab.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;&lt;br /&gt;
+none /cygdrive cygdrive binary,posix=0,user,noacl 0 0&lt;br /&gt;
+&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;There was no need to change the rsync command itself:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;&lt;br /&gt;
+rsync -avn --stats &amp;lt;source&amp;gt; &amp;lt;destination&amp;gt;&lt;br /&gt;
+&lt;/code&gt;&lt;/p&gt;
+</description>
+ <category domain=/blog/technology">technology</category>
+ <pubDate>Sun, 27 Apr 2014 07:14:15 +0000</pubDate>
+ <dc:creator>admin</dc:creator>
+ <guid isPermaLink="false">232 at http://www.alexstanhope.com</guid>
+</item>
+<item>
+ <title>Getting Draytek LAN-to-LAN VPN setup</title>
+ <link>http://www.alexstanhope.com/blog/technology/231/getting-draytek-lan-lan-vpn-setup</link>
+ <description>&lt;p&gt;I&#039;ve been trying to get two Draytek Vigor 2920Vn routers to connect to one another using LAN-to-LAN VPN.  The setup process was largely intuitive, save one detail.&lt;/p&gt;
+&lt;p&gt;The general VPN process was pretty simple.  The two routers are connected all the time, but there is still a sender (dial-out) and a receiver (dial-in).  As I use this LAN-to-LAN connection to enable multiple foreign offices to connect back to headquarters, HQ is dial-in and everyone else is dial-out.&lt;br /&gt;
+Dial-out end&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Login to Draytek admin interface&lt;/li&gt;
+&lt;li&gt;Select VPN and Remote access&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;&lt;a href=&quot;http://www.alexstanhope.com/blog/technology/231/getting-draytek-lan-lan-vpn-setup&quot; target=&quot;_blank&quot;&gt;read more&lt;/a&gt;&lt;/p&gt;</description>
+ <category domain=/blog/technology">technology</category>
+ <pubDate>Fri, 22 Nov 2013 09:10:22 +0000</pubDate>
+ <dc:creator>admin</dc:creator>
+ <guid isPermaLink="false">231 at http://www.alexstanhope.com</guid>
+</item>
+<item>
+ <title>Drupal form validation failure can double up js settings array</title>
+ <link>http://www.alexstanhope.com/blog/technology/230/drupal-form-validation-failure-can-double-js-settings-array</link>
+ <description>&lt;p&gt;I had an interesting Drupal bug.  One of my forms has some javascript that turns an file field widget into an image gallery.  When the form fails validation, the page reloads with the invalid fields highlighted (excellent Drupal feature).  Unfortunately the Drupal.settings array is reloaded (using jQuery.extend) without clearing the previous array.  This has the affect of changing an array of strings and ints into an array of arrays.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;&lt;br /&gt;
+button_remote_url&lt;br /&gt;
+	&quot;Choose something from the URL&quot;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;button_remove&lt;br /&gt;
+	&quot;Change picture&quot;&lt;/p&gt;
+&lt;p&gt;button_upload&lt;br /&gt;
+	&quot;Upload your own&quot;&lt;/p&gt;
+&lt;p&gt;error_ajax&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.alexstanhope.com/blog/technology/230/drupal-form-validation-failure-can-double-js-settings-array&quot; target=&quot;_blank&quot;&gt;read more&lt;/a&gt;&lt;/p&gt;</description>
+ <category domain=/blog/technology">technology</category>
+ <pubDate>Fri, 27 Sep 2013 17:12:01 +0000</pubDate>
+ <dc:creator>admin</dc:creator>
+ <guid isPermaLink="false">230 at http://www.alexstanhope.com</guid>
+</item>
+<item>
+ <title>Poser Pro 2014 Content library error messages again</title>
+ <link>http://www.alexstanhope.com/blog/technology/229/poser-pro-2014-content-library-error-messages-again</link>
+ <description>&lt;p&gt;I seem to have endless problems with Poser Pro 2014.  I did with Poser 9 previously.  I&#039;m using 10.0.1.25099 and again I&#039;m getting a startup error in the content library:&lt;/p&gt;
+&lt;p&gt;FAULT Detected!&lt;br /&gt;
+[FaultEvent fault=[RPC Fault faultString=&quot;HTTP request error&quot; faultCode=&quot;Server.Error.Request&quot; faultDetail=&quot;Error:[IOErrorEvent type=&quot;ioError&quot; bubbles=false cancelable=false eventPhase=2 text=&quot;Error #2032&quot;].&lt;br /&gt;
+URL: http://127.0.0.1:11530/apps/lms/api.py&quot;] messageId=&quot;F74FC0CF-8F68-0592-DE4E-AEFE08947FED&quot; type=&quot;false&quot; bubbles=false cancelable=true eventPhase=2] --- Fault Request Info:&lt;br /&gt;
+   op=appConfig&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.alexstanhope.com/blog/technology/229/poser-pro-2014-content-library-error-messages-again&quot; target=&quot;_blank&quot;&gt;read more&lt;/a&gt;&lt;/p&gt;</description>
+ <category domain=/blog/technology">technology</category>
+ <pubDate>Sat, 24 Aug 2013 06:44:49 +0000</pubDate>
+ <dc:creator>admin</dc:creator>
+ <guid isPermaLink="false">229 at http://www.alexstanhope.com</guid>
+</item>
+<item>
+ <title>Windows-updated Intel HD4000 driver broke Battlefield 3</title>
+ <link>http://www.alexstanhope.com/blog/technology/228/windows-updated-intel-hd4000-driver-broke-battlefield-3</link>
+ <description>&lt;p&gt;My problems with auto-update continued today.  Battlefield 3 failed to start up properly.  The mouse froze over the in-game menu.  This was a proper hardware crash that won&#039;t respond to task switching (Alt + Tab) or interrupts (Ctrl + Alt + Delete).&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.alexstanhope.com/blog/technology/228/windows-updated-intel-hd4000-driver-broke-battlefield-3&quot; target=&quot;_blank&quot;&gt;read more&lt;/a&gt;&lt;/p&gt;</description>
+ <category domain=/blog/technology">technology</category>
+ <pubDate>Fri, 31 May 2013 06:45:12 +0000</pubDate>
+ <dc:creator>admin</dc:creator>
+ <guid isPermaLink="false">228 at http://www.alexstanhope.com</guid>
+</item>
+<item>
+ <title>When Windows Updates fix Poser problems</title>
+ <link>http://www.alexstanhope.com/blog/technology/226/when-windows-updates-fix-poser-problems</link>
+ <description>&lt;p&gt;Recently my copy of Poser 9 stopped working.  The Library manager refused to open, posting this error message:&lt;/p&gt;
+&lt;p&gt;FAULT Detected!&lt;br /&gt;
+[FaultEvent fault=[RPC Fault faultString=&quot;HTTP request error&quot; faultCode=&quot;Server.Error.Request&quot; faultDetail=&quot;Error:[IOErrorEvent type=&quot;ioError&quot; bubbles=false cancelable=false eventPhase=2 text=&quot;Error #2032&quot;]. URL: http://127.0.0.1:11530/apps/lms/api.py&quot;] messageId=978869C0-8C30-E958-7AD1-F63700E8A6F1&quot; type=&quot;fault&quot; bubbles=false cancelable=true eventPhase=2] --- Fault Request Info:&lt;br /&gt;
+  op=appConfig&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.alexstanhope.com/blog/technology/226/when-windows-updates-fix-poser-problems&quot; target=&quot;_blank&quot;&gt;read more&lt;/a&gt;&lt;/p&gt;</description>
+ <category domain=/blog/technology">technology</category>
+ <pubDate>Thu, 30 May 2013 19:04:46 +0000</pubDate>
+ <dc:creator>admin</dc:creator>
+ <guid isPermaLink="false">226 at http://www.alexstanhope.com</guid>
+</item>
+<item>
+ <title>Samsung Galaxy S3 freezing and looping black (start-up logo) screen of death</title>
+ <link>http://www.alexstanhope.com/blog/technology/225/samsung-galaxy-s3-freezing-and-looping-black-start-logo-screen-death</link>
+ <description>&lt;p&gt;I recently had a problem with a friend&#039;s S3.  They had rooted their SGS3, which invalidates the warranty and is clearly something I would never do myself (ahem)!&lt;/p&gt;
+&lt;p&gt;The phone had been worked fine with its rooted OS (CF-Root-SGS3-v6.4.zip) for months, but on the evening of Saturday 4th May, Vodafone pushed an update.  That update seemed to conflict with the rooted OS, and when they returned to the phone it was stuck in an endless loop; it would flash the Samsung Galaxy S3 screen (white text on black background) for a few seconds, then go black (reset), then flash it again for a few seconds.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.alexstanhope.com/blog/technology/225/samsung-galaxy-s3-freezing-and-looping-black-start-logo-screen-death&quot; target=&quot;_blank&quot;&gt;read more&lt;/a&gt;&lt;/p&gt;</description>
+ <category domain=/blog/technology">technology</category>
+ <pubDate>Fri, 24 May 2013 20:23:51 +0000</pubDate>
+ <dc:creator>admin</dc:creator>
+ <guid isPermaLink="false">225 at http://www.alexstanhope.com</guid>
+</item>
+</channel>
+</rss>

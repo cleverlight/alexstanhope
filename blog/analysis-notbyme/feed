@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="http://www.alexstanhope.com"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>Alex Stanhope - analysis notbyme</title>
+ <link>http://www.alexstanhope.com/taxonomy/term/19/0</link>
+ <description></description>
+ <language>en</language>
+<item>
+ <title>In-browser 3D</title>
+ <link>http://www.alexstanhope.com/blog/analysis-notbyme/133/browser-3d</link>
+ <description>&lt;p&gt;I&#039;ve been looking at a couple of options for implementing 3D interfaces in a web-browser environment.&lt;/p&gt;
+&lt;p&gt;&lt;iframe src=&quot;http://www.youtube.com/embed/uofWfXOzX-g?rel=1&amp;amp;autoplay=0&amp;amp;wmode=opaque&quot; width=&quot;460&quot; height=&quot;284&quot; class=&quot;video-filter video-youtube vf-uofwfxozxg&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;p class=&quot;heading&quot;&gt;Nothing native&lt;/p&gt;
+&lt;p&gt;The major browsers don&#039;t support 3D out of the box.  They require a plugin.  The least install-heavy is Java3D, which typically pops out of the browser using Java Web Start.  The chances are your machine already has Java 5 or 6 installed.  &lt;a href=&quot;https://j3d-webstart.dev.java.net/test/&quot;&gt;Samples&lt;/a&gt;.&lt;/p&gt;
+&lt;p class=&quot;heading&quot;&gt;Plugin options&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.alexstanhope.com/blog/analysis-notbyme/133/browser-3d&quot; target=&quot;_blank&quot;&gt;read more&lt;/a&gt;&lt;/p&gt;</description>
+ <category domain=/blog/analysis-notbyme">analysis notbyme</category>
+ <category domain=/blog/business">business</category>
+ <pubDate>Sat, 11 Jul 2009 08:04:41 +0000</pubDate>
+ <dc:creator>alex</dc:creator>
+ <guid isPermaLink="false">133 at http://www.alexstanhope.com</guid>
+</item>
+</channel>
+</rss>

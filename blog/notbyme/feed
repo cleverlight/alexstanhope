@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="http://www.alexstanhope.com"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>Alex Stanhope - notbyme</title>
+ <link>http://www.alexstanhope.com/taxonomy/term/18/0</link>
+ <description></description>
+ <language>en</language>
+<item>
+ <title>The state of the Creative Industries, forecast by Kyle from South Park</title>
+ <link>http://www.alexstanhope.com/blog/business/139/state-creative-industries-forecast-kyle-south-park</link>
+ <description>&lt;p&gt;This would be funny were it not so extraordinarily insightful and accurate.  Actually it&#039;s funny anyway.&lt;/p&gt;
+&lt;p&gt;&lt;embed src=&quot;http://media.mtvnservices.com/mgid:cms:item:southparkstudios.com:165199&quot; width=&quot;480&quot; height=&quot;400&quot; type=&quot;application/x-shockwave-flash&quot; wmode=&quot;window&quot; flashVars=&quot;autoPlay=false&amp;amp;dist=coolrulespronto.wordpress.com&amp;amp;orig=&quot; allowFullScreen=&quot;true&quot; allowScriptAccess=&quot;always&quot; allownetworking=&quot;all&quot; bgcolor=&quot;#000000&quot;&gt;&lt;/embed&gt;&lt;/p&gt;
+</description>
+ <category domain=/blog/business">business</category>
+ <category domain=/blog/notbyme">notbyme</category>
+ <pubDate>Wed, 04 Nov 2009 14:49:41 +0000</pubDate>
+ <dc:creator>alex</dc:creator>
+ <guid isPermaLink="false">139 at http://www.alexstanhope.com</guid>
+</item>
+<item>
+ <title>New YorkiStan</title>
+ <link>http://www.alexstanhope.com/blog/fun/138/new-yorkistan</link>
+ <description>&lt;p&gt;&lt;a href=&quot;http://images.google.co.uk/images?gbv=2&amp;amp;hl=en&amp;amp;safe=off&amp;amp;sa=1&amp;amp;q=new+yorker+cover+dec+2001&amp;amp;btnG=Search&amp;amp;aq=f&amp;amp;oq=&amp;amp;start=0&quot;&gt;See the cover on Google Images&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.ted.com/talks/maira_kalman_the_illustrated_woman.html&quot;&gt;Maira Kalman&lt;/a&gt; shows this brilliant New Yorker cover in her TED talk.&lt;/p&gt;
+</description>
+ <category domain=/blog/fun">fun</category>
+ <category domain=/blog/notbyme">notbyme</category>
+ <pubDate>Sun, 09 Aug 2009 15:11:09 +0000</pubDate>
+ <dc:creator>alex</dc:creator>
+ <guid isPermaLink="false">138 at http://www.alexstanhope.com</guid>
+</item>
+</channel>
+</rss>

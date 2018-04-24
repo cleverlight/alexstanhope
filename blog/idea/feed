@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="http://www.alexstanhope.com"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>Alex Stanhope - idea</title>
+ <link>http://www.alexstanhope.com/taxonomy/term/11/0</link>
+ <description></description>
+ <language>en</language>
+<item>
+ <title>My Angel: an intelligent recommendation service</title>
+ <link>http://www.alexstanhope.com/blog/creative/127/my-angel-intelligent-recommendation-service</link>
+ <description>&lt;p&gt;Basic idea: a personal digital assistant that helps me to navigative unfamiliar real-world places. &amp;lt;name&amp;gt; would be a non-invasive stream-of-consciousness type support service.&lt;/p&gt;
+&lt;p&gt;Input and training: &amp;lt;name&amp;gt; builds up a profile of what I like and where I buy it from.&lt;/p&gt;
+&lt;p&gt;Output/benefit: when walking around in an unfamiliar place (such as a foreign city), &amp;lt;name&amp;gt; uses GPS and contextual information about my surroundings to highlight relevant services.  The advice is then piped to me via a bluetooth headset.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.alexstanhope.com/blog/creative/127/my-angel-intelligent-recommendation-service&quot; target=&quot;_blank&quot;&gt;read more&lt;/a&gt;&lt;/p&gt;</description>
+ <category domain=/blog/creative">creative</category>
+ <category domain=/blog/idea">idea</category>
+ <pubDate>Fri, 23 Jan 2009 12:26:04 +0000</pubDate>
+ <dc:creator>alex</dc:creator>
+ <guid isPermaLink="false">127 at http://www.alexstanhope.com</guid>
+</item>
+</channel>
+</rss>

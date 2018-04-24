@@ -1,0 +1,31 @@
+---
+layout: tag-page
+author_profile: false
+tag: front
+header:
+    overlay_image: /assets/images/cloudlake_mirror_23878_1920x.jpg
+redirect_from: "/tech/front/"
+---
+
+Miss the old site?  It's still around <a href="/legacy/index.html">old AlexStanhope.com site</a>, preserved for posterity.
+
+<!-- make header image into half-bleed -->
+<style>
+    h1.page__title {
+        display: none;
+    }
+
+    div.masthead {
+        height: 0;
+    }
+
+    nav.greedy-nav {
+        background: transparent;
+    }
+</style>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        var vh = $(window).height();
+        $('div.page__hero--overlay').css('height', (vh / 2) + 'px');
+    });
+</script>
