@@ -12,7 +12,7 @@ locale                   : "en"
 title                    : "Alex Stanhope"
 title_separator          : "-"
 name                     : "Alex Stanhope"
-description              : "Consulting and training services"
+description              : "Coaching and training services"
 url                      : "http://www.alexstanhope.com"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "cleverlight/alexstanhope"
@@ -179,7 +179,7 @@ sass:
 
 
 # Outputting
-permalink: /tech/:year/:title/
+permalink: /on/:year/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
@@ -219,7 +219,7 @@ category_archive:
   path: /categories/
 tag_archive:
   type: liquid
-  path: /tech/
+  path: /on/
 # https://github.com/jekyll/jekyll-archives
 # jekyll-archives:
 #   enabled:
