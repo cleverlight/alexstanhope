@@ -1,7 +1,7 @@
 
 # Leading teams up the mountain
 
---
+---
 
 ## Doing good work?
 * How is it valuable?
