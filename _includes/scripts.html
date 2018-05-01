@@ -18,3 +18,9 @@
 
 {% include analytics.html %}
 {% include /comments-providers/scripts.html %}
+
+{% if page.footer.inline_js %}
+<script type="javascript">
+    {{ page.footer.inline_js }}
+</script>
+{% endif %}
