@@ -13,4 +13,6 @@ header:
 
 {% include presentations/2018-04-29-leading-teams-up-the-mountain.md %}
 
+{% include reveal_post-cleanup.html %}
+
 [Presentation only](reveal/)
