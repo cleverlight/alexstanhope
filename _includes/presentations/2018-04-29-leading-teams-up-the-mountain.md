@@ -1,8 +1,18 @@
 
+## Team of leaders, not leader of teams
+
+{% if include.pres %}* Anonymity of teams
+* Experience of the inside
+* Sum of the parts
+
+Note: {% endif %}It typically takes more than individual excellence to achieve team goals.  Our culture is quick to celebrate a named individual as a representative of a team; the Oscar goes to the director for Best Picture, the driver collects the trophy on behalf of the F1 team and fame tends to favour the front-person over the chorus.  Yet if modern teams are to succeed in an ever more competitive environment, what makes the soloist willing to surrender to the anonymity of a team?
+
 ## Doing good work?
 
 {% if include.pres %}* How is it valuable?
 * To whom?
+* Delayed gratification
+* Like what you do?
 
 Note: {% endif %}Deep-down, I suspect everyone has a sense of whether they're doing good work or not.  When I am, when I have a chance to work hard and achieve something, when I'm doing something that's valuable to the business, I feel lifted.  It's not easy, it often requires discipline and it's not like the summit-reaching joy fills every minute of the ascent, but I like what I do.  I always thought that meant I like the activities I undertake for work.   So when people say "you're an X?  Do you enjoy it?" I thought the question was specific: do you like doing the sort of things that go with being an X?
 
@@ -49,5 +59,17 @@ Comfort varies from person to person.  A good manager takes the time to understa
 {% if include.pres %}Note: {% endif %}No matter how disciplined I am, no matter how well equipped, rested or prepared, some part of me won't want to do the hard thing.  Some small part is going to want to stay in bed on Monday morning, sit on the sofa or watch TV.  However you personify that part, for most of us it's real. Ignore it at your peril.
 
 As a manager, the challenge is to keep the team going when everyone's fed up on the journey up the mountain.  Be clear where you're going, help each and every one of us understand how our contribution matters, create moments of respite.
+
+---
+
+## Celebrate \[small\] victories
+{% if include.pres %}
+* Dylan Moran
+* Scope of control
+* Cadence of celebration
+* Effectiveness of review
+* Efficacy of team
+
+Note: {% endif %}The more you can celebrate the victories, the more likely you'll get honest reviews of the defeats.  Trying to enjoy one, while whitewash the other creates a dissonance in the team.  Effective reviews that surface creative solutions to try - for really it's all about test-and-learn experiments - increases efficacy.
 
 With a bit of luck, we forget the hard bits.  It's the laughter and connection that great teams hang on to, but their walls are adorned with trophies and team selfies that remind them that there's a summit to the next adventure as there was to the last.
