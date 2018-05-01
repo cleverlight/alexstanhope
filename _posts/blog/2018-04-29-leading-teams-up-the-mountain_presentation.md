@@ -11,6 +11,6 @@ permalink: /in/2018/leading-teams-up-the-mountain/reveal/
 
 ---
 
-{% include presentations/2018-04-29-leading-teams-up-the-mountain.md %}
+{% include presentations/2018-04-29-leading-teams-up-the-mountain.md pres=true %}
 
 {% include reveal_slide-finish.html %}
