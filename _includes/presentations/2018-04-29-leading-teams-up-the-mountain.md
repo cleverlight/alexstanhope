@@ -7,6 +7,8 @@
 
 Note: {% endif %}It typically takes more than individual excellence to achieve team goals.  Our culture is quick to celebrate a named individual as a representative of a team; the Oscar goes to the director for Best Picture, the driver collects the trophy on behalf of the F1 team and fame tends to favour the front-person over the chorus.  Yet if modern teams are to succeed in an ever more competitive environment, what makes the soloist willing to surrender to the anonymity of a team?
 
+---
+
 ## Doing good work?
 
 {% if include.pres %}* How is it valuable?
