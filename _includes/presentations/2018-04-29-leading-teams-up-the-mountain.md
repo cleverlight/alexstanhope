@@ -1,7 +1,7 @@
 
 ## Doing good work?
 
-{% if pres %}* How is it valuable?
+{% if include.pres %}* How is it valuable?
 * To whom?
 
 Note: {% endif %}Deep-down, I suspect everyone has a sense of whether they're doing good work or not.  When I am, when I have a chance to work hard and achieve something, when I'm doing something that's valuable to the business, I feel lifted.  It's not easy, it often requires discipline and it's not like the summit-reaching joy fills every minute of the ascent, but I like what I do.  I always thought that meant I like the activities I undertake for work.   So when people say "you're an X?  Do you enjoy it?" I thought the question was specific: do you like doing the sort of things that go with being an X?
@@ -10,13 +10,13 @@ Note: {% endif %}Deep-down, I suspect everyone has a sense of whether they're do
 
 ## Task != job satisfaction
 
-{% if pres %}Note: {% endif %}What I'm realising now is that liking what I do has comparatively little to do with the activities.  I've enjoyed washing up, or cleaning tables because the context of the task gave me what I needed to enjoy it.  Sometimes I do tasks that I actively don't like, yet the experience is one I would willling repeat if the context is there to keep me motivated.
+{% if include.pres %}Note: {% endif %}What I'm realising now is that liking what I do has comparatively little to do with the activities.  I've enjoyed washing up, or cleaning tables because the context of the task gave me what I needed to enjoy it.  Sometimes I do tasks that I actively don't like, yet the experience is one I would willling repeat if the context is there to keep me motivated.
 
 ---
 
 ## Three Cs
 
-{% if pres %}* Clarity
+{% if include.pres %}* Clarity
 * Context
 * Comfort
 
@@ -32,7 +32,7 @@ Comfort: hmm, contentious.  This isn't about sofas or corporate massages.  Neith
 
 ## Understanding Comfort
 
-{% if pres %}* Effort is individual
+{% if include.pres %}* Effort is individual
 * Respite is individual
 * High-performance is a team dynamic
 
@@ -46,7 +46,7 @@ Comfort varies from person to person.  A good manager takes the time to understa
 
 ## Make up your mind
 
-{% if pres %}Note: {% endif %}No matter how disciplined I am, no matter how well equipped, rested or prepared, some part of me won't want to do the hard thing.  Some small part is going to want to stay in bed on Monday morning, sit on the sofa or watch TV.  However you personify that part, for most of us it's real. Ignore it at your peril.
+{% if include.pres %}Note: {% endif %}No matter how disciplined I am, no matter how well equipped, rested or prepared, some part of me won't want to do the hard thing.  Some small part is going to want to stay in bed on Monday morning, sit on the sofa or watch TV.  However you personify that part, for most of us it's real. Ignore it at your peril.
 
 As a manager, the challenge is to keep the team going when everyone's fed up on the journey up the mountain.  Be clear where you're going, help each and every one of us understand how our contribution matters, create moments of respite.
 
