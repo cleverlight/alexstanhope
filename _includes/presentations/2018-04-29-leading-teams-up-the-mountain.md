@@ -22,7 +22,7 @@ Note: {% endif %}Deep-down, I suspect everyone has a sense of whether they're do
 
 ## Task != job satisfaction
 
-{% if include.pres %}Note: {% endif %}What I'm realising now is that liking what I do has comparatively little to do with the activities.  I've enjoyed washing up, or cleaning tables because the context of the task gave me what I needed to enjoy it.  Sometimes I do tasks that I actively don't like, yet the experience is one I would willling repeat if the context is there to keep me motivated.
+{% if include.pres %}Note: {% endif %}What I'm realising now is that liking what I do has comparatively little to do with the activities.  I've enjoyed washing up, or cleaning tables because the context of the task gave me what I needed to enjoy it.  Sometimes I do tasks that I actively don't like, yet the experience is one I would willing repeat if the context is there to keep me motivated.
 
 ---
 
@@ -32,7 +32,7 @@ Note: {% endif %}Deep-down, I suspect everyone has a sense of whether they're do
 * Context
 * Comfort
 
-Note: {% endif %}Dan Pink talks about Mastery, Autonomy, Purpose.  Of course he's right.  My list is different, possibly derivative, but handly alliterative.
+Note: {% endif %}Dan Pink talks about Mastery, Autonomy, Purpose.  Of course he's right.  My list is different, possibly derivative, but handily alliterative.
 
 Clarity: the task needs to be well-defined and I need to understand it.  Ambiguity and confusion suck the life out of a job.  I've written about [VUCA before and it's impact on DevOps cultures](http://www.lightenna.com/tech/2018/cost-of-collaboration/).  Complexity is fine.  You work through it, systematically, patiently, progressively.  Volatility is fine so long as it's not insane - if the environment isn't stable enough to know that the task will add value, then pair down the task until it will.
 
@@ -72,6 +72,6 @@ As a manager, the challenge is to keep the team going when everyone's fed up on 
 * Effectiveness of review
 * Efficacy of team
 
-Note: {% endif %}The more you can celebrate the victories, the more likely you'll get honest reviews of the defeats.  Trying to enjoy one, while whitewash the other creates a dissonance in the team.  Effective reviews that surface creative solutions to try - for really it's all about test-and-learn experiments - increases efficacy.
+Note: {% endif %}The more you can celebrate the victories, the more likely you'll get honest reviews of the defeats.  Trying to enjoy one, while whitewash the other creates a dissonance in the team.  Effective reviews surface creative solutions to try - for really it's all about test-and-learn experiments - that increase efficacy.
 
 With a bit of luck, we forget the hard bits.  It's the laughter and connection that great teams hang on to, but their walls are adorned with trophies and team selfies that remind them that there's a summit to the next adventure as there was to the last.
