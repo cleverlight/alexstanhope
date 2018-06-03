@@ -49,7 +49,7 @@ Note: {% endif %}It should be enough to admit partial responsibility.  It should
 
 It's not.
 
-When my country's Government had the honourable men of the Armed Forces engaged in the dishonourable activity of suppressing uprisings in their Indian Colony - a national shame that fades with time but haunts me still - Ghandi didn't advocate fighting fairly or meeting British violence with only an equal and fair response.  He had them lay down their bodies in surrender to the terrible beatings they received.
+When my country's Government had the honourable men of the Armed Forces engaged in the dishonourable activity of suppressing uprisings in their Indian Colony - a national shame that fades with time but haunts me still - Ghandi didn't advocate fighting fairly or meeting British violence with only an equal and measured response.  He had them lay down their bodies in surrender to the terrible beatings they received.  He advocated for peaceful demonstrations and revolutionary civil disobedience.  It was the innovation that fed the Indian Independence struggle, united the population and ultimately undermined British authority.
 
 The world doesn't change when lobbied by a proportionate response.  It requires of me radical personal accountability, ruthless reintegration of all my projections, total ownership of the problems I'm a participant in.
 
@@ -68,10 +68,13 @@ Perhaps the hardest struggles are those fought internally?
 
 ## Choosing empowerment
 
-{% if include.pres %}* Taking it back
+{% if include.pres %}* Not giving in
+* Taking it back
 * Internalising
 
-Note: {% endif %}It's empowering to take ownership.  When I place the locus of the problem in me, I give myself a chance to solve it.  When I project that problem on someone or something else, I set myself as a powerless victim, prey to a world full of problems that befall me.
+Note: {% endif %}It's not about giving in - a point excellently articulated in Ury and Fisher's [Getting to Yes](https://en.wikipedia.org/wiki/Getting_to_Yes) - because negotiation is fundamentally about discovery, not conflict.  Inter-personal conflict stems from unresolved problems.
+
+When I place the locus of the problem in me, I give myself a chance to solve it: it's empowering to take ownership.  When I project that problem on someone or something else, I set myself as a powerless victim, prey to a world full of problems that befall me.
 
 ---
 
