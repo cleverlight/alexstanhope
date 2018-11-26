@@ -4,7 +4,8 @@ title: Shit but charming
 description: Excel, be the best, go for broke, or opt out and choose a more human alternative
 tags: development front
 header:
-    overlay_image: /assets/images/world-reflected-6VCZ_1920x.jpg
+    overlay_image: /assets/images/rubbish_drawing_hands-around-the-world_01039_1920x.jpg
+    small_image: /assets/images/rubbish_drawing_hands-around-the-world_01039_640x.jpg
 ---
 
 One of my colleagues ([@MrAndyButcher](https://twitter.com/MrAndyButcher)) recently asked a professional to look at his creative work.
