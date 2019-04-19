@@ -3,25 +3,68 @@
  * Copyright Lightenna Ltd - lightenna.com | @lightenna
 */
 
-.left {
-  text-align: left;
-  float: left;
-  width: 45%;
-  z-index: -10;
-}
+.reveal {
+  .source {
+    font-size: 0.5em;
+  }
 
-.right {
-  left: 25%;
-  top: 75px;
-  float: right;
-  z-index: -10;
-  width: 45%;
-}
+  .left {
+    text-align: left;
+    float: left;
+    width: 45%;
+    z-index: -10;
+  }
 
-ul.as-right {
-  direction: rtl;
-  margin: 0 1em 0 0;
-  li {
-    text-align: right;
+  .right {
+    left: 25%;
+    top: 75px;
+    float: right;
+    z-index: -10;
+    width: 45%;
+  }
+
+  ul.as-right {
+    direction: rtl;
+    margin: 0 1em 0 0;
+    li {
+      text-align: right;
+    }
+  }
+
+  .big-single {
+    margin: -20px 0 0 0;
+  }
+
+  .highlit-bullets {
+    b {
+      color: red;
+    }
+  }
+
+  .iframe-overlay {
+    position: absolute;
+    width: 40%;
+    right: 0;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5), 0 5px 25px rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.9);
+    color: #fff;
+    padding: 20px;
+    font-size: 20px;
+    text-align: left;
+    h2, h3, h4, h5 {
+      color: #fff;
+    }
+    &.overlay-left {
+      left: 0;
+      right: auto;
+    }
+  }
+
+  .iframe-overlay-big {
+    position: absolute;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5), 0 5px 25px rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.9);
+    color: #fff;
+    font-size: 20px;
   }
 }
