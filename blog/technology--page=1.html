@@ -47,182 +47,176 @@ jQuery.extend(Drupal.settings, { "basePath": "/", "lightbox2": { "rtl": 0, "file
 </ul>      </div>
   <div id="content">
     <div class="breadcrumb"><a href="/">Home</a></div>                        <h2>technology</h2>    
-  <div id="node-213" class="post node">
-  <div class="post-date"><span class="post-month">May</span> <span class="post-day">07</span></div>
+  <div id="node-224" class="post node">
+  <div class="post-date"><span class="post-month">Jan</span> <span class="post-day">01</span></div>
   <div class="entry">
-    <h2><a href="technology/213/backbonejs-requires-underscorejs-be-global-page-context.html" rel="bookmark" title="Permanent Link to Backbone.js requires underscore.js to be in the global page context">Backbone.js requires underscore.js to be in the global page context</a></h2>
+    <h2><a href="technology/224/windows-7-permissions-reset-external-drive.html" rel="bookmark" title="Permanent Link to Windows 7 permissions reset on external drive">Windows 7 permissions reset on external drive</a></h2>
     <span class="post-cat"><ul class="links inline"><li class="taxonomy_term_1 first last active"><a href="technology.1.html" rel="tag" title="" class="active">technology</a></li>
 </ul></span>    <div class="post-content">
-      <p>I was loading underscore.js then applying the .noConflict().  When Backbone (0.5.1) was loading, it couldn't find Underscore (window._).  This manifested as a Firefox console error "f is undefined".</p>
-<p>Once Backbone has loaded, you can safely clean up both libraries without disrupting either:</p>
-<p><code><br />
-var b, u;<br />
-b = window['Backbone'].noConflict();<br />
-u = window['_'].noConflict();<br />
-</code></p>
+      <p>I've got a few external disks and in travelling from machine to machine over the years, their windows (NTFS) permissions can get pretty screwy:</p>
+<p>cmd (run as administrator)<br />
+cd<br />
+icacls * /T /Q /C /RESET</p>
     </div>
   </div> 
   
 </div>
 <div class="clear"></div>
-  <div id="node-212" class="post node">
-  <div class="post-date"><span class="post-month">Apr</span> <span class="post-day">25</span></div>
+  <div id="node-223" class="post node">
+  <div class="post-date"><span class="post-month">Nov</span> <span class="post-day">12</span></div>
   <div class="entry">
-    <h2><a href="technology/212/zendserver-upgrade-includes-mysql-51-breaks-logfile-size.html" rel="bookmark" title="Permanent Link to ZendServer upgrade includes MySQL 5.1 but breaks logfile size">ZendServer upgrade includes MySQL 5.1 but breaks logfile size</a></h2>
+    <h2><a href="technology/223/designing-urls-moveable-hash.html" rel="bookmark" title="Permanent Link to Designing URLs with moveable hash">Designing URLs with moveable hash</a></h2>
     <span class="post-cat"><ul class="links inline"><li class="taxonomy_term_1 first last active"><a href="technology.1.html" rel="tag" title="" class="active">technology</a></li>
-</ul></span><span class="post-comments"><ul class="links inline"><li class="node_read_more first last"><a href="technology/212/zendserver-upgrade-includes-mysql-51-breaks-logfile-size.html" title="Read the rest of ZendServer upgrade includes MySQL 5.1 but breaks logfile size.">Read more</a></li>
+</ul></span><span class="post-comments"><ul class="links inline"><li class="node_read_more first last"><a href="technology/223/designing-urls-moveable-hash.html" title="Read the rest of Designing URLs with moveable hash.">Read more</a></li>
 </ul></span>    <div class="post-content">
-      <p>I recently upgraded my ZendServer (development) from 5.0 to 5.6.0.  This includes PHP 5.2.17 and 5.1.50.  Everything worked very smoothly, but when I restarted my machine MySQL failed to start (Error 1067).  I googled my way to this post, then found the .err file in MySQL's /data directory:</p>
-<p><code><br />
-InnoDB: Error: log file .\ib_logfile0 is of different size 0 45088768 bytes<br />
-InnoDB: than specified in the .cnf file 0 56623104 bytes!</code></p>
-    </div>
+      <p>I'm thinking about the URL structure for a new site.  I'm trying to balance two forces:</p>
+<p>1. a proper nested hierarchy of URL elements, organised by a single relationship type, for example</p>
+<p>http://example.com/contains/section1/section1p1/section1p1p1</p>
+<p>2. a single page javascript app that navigates them, individually or in groups, for example</p>
+<p>http://example.com/contains/#section1/section1p1/section1p1p1</p>
+<p>I think the solution is a moveable hash and a JS redirect.</p>
+<table>
+<tr>
+<th>URL</th>
+<th>Content</th>
+
+<tr>
+</tr></tr></table>    </div>
   </div> 
   
 </div>
 <div class="clear"></div>
-  <div id="node-211" class="post node">
-  <div class="post-date"><span class="post-month">Apr</span> <span class="post-day">20</span></div>
+  <div id="node-222" class="post node">
+  <div class="post-date"><span class="post-month">Sep</span> <span class="post-day">24</span></div>
   <div class="entry">
-    <h2><a href="technology/211/synchronising-time-between-two-linux-servers-using-ssh.html" rel="bookmark" title="Permanent Link to synchronising time between two linux servers using SSH">synchronising time between two linux servers using SSH</a></h2>
+    <h2><a href="technology/222/django-141-mongodb.html" rel="bookmark" title="Permanent Link to Django 1.4.1 with MongoDB">Django 1.4.1 with MongoDB</a></h2>
     <span class="post-cat"><ul class="links inline"><li class="taxonomy_term_1 first last active"><a href="technology.1.html" rel="tag" title="" class="active">technology</a></li>
+</ul></span><span class="post-comments"><ul class="links inline"><li class="node_read_more first last"><a href="technology/222/django-141-mongodb.html" title="Read the rest of Django 1.4.1 with MongoDB.">Read more</a></li>
 </ul></span>    <div class="post-content">
-      <p>NTP is a fantastic protocol, but there are cases where you don't want to have another daemon running on a server.  This script connects from machine A to machine B using SSH, reads the time from B and applies it to A.</p>
-<p><code><br />
-# fetch time from machine B<br />
-time=`ssh user@b.domain.com -p522 "date +'%m%d%H%M%Y'"`<br />
-# apply date to local machine (A)<br />
-echo "Setting time to "$time<br />
-date $time<br />
-</code></p>
-    </div>
-  </div> 
-  
-</div>
-<div class="clear"></div>
-  <div id="node-210" class="post node">
-  <div class="post-date"><span class="post-month">Mar</span> <span class="post-day">27</span></div>
-  <div class="entry">
-    <h2><a href="technology/210/make-skype-start-minimised.html" rel="bookmark" title="Permanent Link to Make Skype start minimised">Make Skype start minimised</a></h2>
-    <span class="post-cat"><ul class="links inline"><li class="taxonomy_term_1 first last active"><a href="technology.1.html" rel="tag" title="" class="active">technology</a></li>
-</ul></span><span class="post-comments"><ul class="links inline"><li class="upload_attachments first last"><a href="technology/210/make-skype-start-minimised.html#attachments" title="Read full article to view attachments.">4 attachments</a></li>
-</ul></span>    <div class="post-content">
-      <p>Every time I restart my computer, Skype (5.5) loads, logs in and opens a window.  I discovered how to make it load minimised:</p>
+      <p>I'm experimenting with Python and Django at the moment.  In trying to connect that pair to MongoDB I stumbled across a couple of alternatives:</p>
 <ul>
-<li>Find the Skype program files folder(C:\Program Files (x86)\Skype\Phone)</li>
-<li>Create a new shortcut</li>
-<li>Modify the target to read /secondary /minimized</li>
-<li>Find the Windows startup folder</li>
-<li>Delete or move the old Skype shortcut out</li>
-<li>Move the new shortcut in</li>
-<li>Run Skype, select View -&gt; Compact mode</li>
+<li>Option 1: MongoDB-Engine</li>
+<li>Option 2: mongoengine and PyMongo</li>
 </ul>
     </div>
   </div> 
   
 </div>
 <div class="clear"></div>
-  <div id="node-206" class="post node">
-  <div class="post-date"><span class="post-month">Jan</span> <span class="post-day">10</span></div>
+  <div id="node-221" class="post node">
+  <div class="post-date"><span class="post-month">Sep</span> <span class="post-day">17</span></div>
   <div class="entry">
-    <h2><a href="technology/206/value-good-backup.html" rel="bookmark" title="Permanent Link to The value of a good backup">The value of a good backup</a></h2>
+    <h2><a href="technology/221/trend-micro-2012-interrupts-windows-file-sharing-over-samba-without-warning.html" rel="bookmark" title="Permanent Link to Trend Micro 2012 interrupts Windows file sharing over Samba without warning">Trend Micro 2012 interrupts Windows file sharing over Samba without warning</a></h2>
     <span class="post-cat"><ul class="links inline"><li class="taxonomy_term_1 first last active"><a href="technology.1.html" rel="tag" title="" class="active">technology</a></li>
-</ul></span><span class="post-comments"><ul class="links inline"><li class="node_read_more first last"><a href="technology/206/value-good-backup.html" title="Read the rest of The value of a good backup.">Read more</a></li>
+</ul></span><span class="post-comments"><ul class="links inline"><li class="node_read_more first"><a href="technology/221/trend-micro-2012-interrupts-windows-file-sharing-over-samba-without-warning.html" title="Read the rest of Trend Micro 2012 interrupts Windows file sharing over Samba without warning.">Read more</a></li>
+<li class="upload_attachments last"><a href="technology/221/trend-micro-2012-interrupts-windows-file-sharing-over-samba-without-warning.html#attachments" title="Read full article to view attachments.">5 attachments</a></li>
 </ul></span>    <div class="post-content">
-      <p>I've got a <a href="http://wdc.com/en/products/products.aspx?id=30">2TB Western Digital drive</a> that's showing the early signs of failure.  It corrupted a 1GB file the other day.  The thing is that corruption could be caused by the NTFS driver (<a href="http://www.tuxera.com/products/tuxera-ntfs-for-mac/">Tuxera NTFS for Mac</a>), or even the media encoding software that produced the file (<a href="http://handbrake.fr/">Handbrake</a>).  Only time will tell when either a second file is corrupted, or the drive entirely fails.</p>
+      <p>It's frustrating to be trying new things and they don't work, but there is nothing so irratating as something failing that you thought worked and consequently rely upon.  These last few weeks I've been struggling with a file sharing bug in Trend Micro's anti-virus program, though as with all these antivirus software originated problems, they don't tell you that.  Here's the bug report I was writing up while investigating and crucially the simple solution.</p>
+<p>I'm trying to copy a virtual machine (VM) instance from one machine to another over a 1GB LAN.</p>
     </div>
   </div> 
   
 </div>
 <div class="clear"></div>
-  <div id="node-205" class="post node">
-  <div class="post-date"><span class="post-month">Jan</span> <span class="post-day">05</span></div>
+  <div id="node-220" class="post node">
+  <div class="post-date"><span class="post-month">Sep</span> <span class="post-day">10</span></div>
   <div class="entry">
-    <h2><a href="technology/205/firefox-showing-spinner-indefinitely-html-5-videojs-ogg-embed.html" rel="bookmark" title="Permanent Link to Firefox showing spinner indefinitely for HTML 5 (video.js) .ogg embed">Firefox showing spinner indefinitely for HTML 5 (video.js) .ogg embed</a></h2>
+    <h2><a href="technology/220/macbook-pro-uk-keyboard-vmware-windows.html" rel="bookmark" title="Permanent Link to MacBook Pro UK keyboard in VMware Windows">MacBook Pro UK keyboard in VMware Windows</a></h2>
     <span class="post-cat"><ul class="links inline"><li class="taxonomy_term_1 first last active"><a href="technology.1.html" rel="tag" title="" class="active">technology</a></li>
-</ul></span><span class="post-comments"><ul class="links inline"><li class="node_read_more first last"><a href="technology/205/firefox-showing-spinner-indefinitely-html-5-videojs-ogg-embed.html" title="Read the rest of Firefox showing spinner indefinitely for HTML 5 (video.js) .ogg embed.">Read more</a></li>
 </ul></span>    <div class="post-content">
-      <p>One of my sites uses HTML 5 to show video on the homepage.  The VfE embed worked fine in Safari/Chrome/IE but had stopped working in Firefox.  It just left the loading spinner spinning indefinitely and refused to play.  I tracked it down to the source=".../video.ogg" line.</p>
+      <p>I use a virtual machine to run Windows-only software on my Mac.  The standard UK/US keyboard mappings didn't correspond to the keyboard on my MBP, so I googled for an accurate custom mapping.  I actually found this in a Virtualbox bug report but I successfully tested on VMware Fusion 4.  Here's the English UK keyword installer to run in the Windows VM.</p>
     </div>
   </div> 
   
 </div>
 <div class="clear"></div>
-  <div id="node-203" class="post node">
-  <div class="post-date"><span class="post-month">Jan</span> <span class="post-day">05</span></div>
+  <div id="node-219" class="post node">
+  <div class="post-date"><span class="post-month">Aug</span> <span class="post-day">23</span></div>
   <div class="entry">
-    <h2><a href="technology/203/google-maps-tile-display-bug-kml-layers.html" rel="bookmark" title="Permanent Link to Google Maps tile display bug for KML layers">Google Maps tile display bug for KML layers</a></h2>
+    <h2><a href="technology/219/vmware-fusion-5-another-major-version-only-minor-revisions.html" rel="bookmark" title="Permanent Link to VMware Fusion 5: another major version, with only minor revisions">VMware Fusion 5: another major version, with only minor revisions</a></h2>
     <span class="post-cat"><ul class="links inline"><li class="taxonomy_term_1 first last active"><a href="technology.1.html" rel="tag" title="" class="active">technology</a></li>
-</ul></span><span class="post-comments"><ul class="links inline"><li class="node_read_more first"><a href="technology/203/google-maps-tile-display-bug-kml-layers.html" title="Read the rest of Google Maps tile display bug for KML layers.">Read more</a></li>
-<li class="upload_attachments last"><a href="technology/203/google-maps-tile-display-bug-kml-layers.html#attachments" title="Read full article to view attachments.">2 attachments</a></li>
 </ul></span>    <div class="post-content">
-      <p>I've encountered a problem with the Google Maps API, specifically with the <a href="http://code.google.com/apis/maps/documentation/javascript/layers.html#KMLLayers">KML layers</a> on my <a href="http://www.surfysurveys.com/node/982/map">Surfy Survey map</a>.  The KML-enhanced tiles occasionally fail to load and default back to the normal tiles.  This produces a map that shows part of a heatmap, as the two images below illustrate.  This behavior is non-deterministic.</p>
+      <p>Again VMware have released a paid update to their Mac OS X "VMware Fusion' product (v5), but it's full of minor revisions that should have gone into their previous version (4).  Support for Retina display, Ivy Bridge processors and Windows 8 are features that should be built into the current release (that I bought 2 weeks ago).</p>
+<p>What bothers me particularly is that their upgrade policy is a joke.  VMware Fusion new costs E43, but if you bought the previous version, it's still E43.</p>
     </div>
   </div> 
   
 </div>
 <div class="clear"></div>
-  <div id="node-202" class="post node">
-  <div class="post-date"><span class="post-month">Oct</span> <span class="post-day">27</span></div>
+  <div id="node-218" class="post node">
+  <div class="post-date"><span class="post-month">Aug</span> <span class="post-day">23</span></div>
   <div class="entry">
-    <h2><a href="technology/202/arraywalk-snippet-phpnet.html" rel="bookmark" title="Permanent Link to array_walk snippet on php.net">array_walk snippet on php.net</a></h2>
+    <h2><a href="technology/218/focus-important-and-enabled-robust-standardised-platforms.html" rel="bookmark" title="Permanent Link to Focus is important, and enabled by robust, standardised platforms">Focus is important, and enabled by robust, standardised platforms</a></h2>
     <span class="post-cat"><ul class="links inline"><li class="taxonomy_term_1 first last active"><a href="technology.1.html" rel="tag" title="" class="active">technology</a></li>
-</ul></span><span class="post-comments"><ul class="links inline"><li class="node_read_more first last"><a href="technology/202/arraywalk-snippet-phpnet.html" title="Read the rest of array_walk snippet on php.net.">Read more</a></li>
+</ul></span><span class="post-comments"><ul class="links inline"><li class="node_read_more first last"><a href="technology/218/focus-important-and-enabled-robust-standardised-platforms.html" title="Read the rest of Focus is important, and enabled by robust, standardised platforms.">Read more</a></li>
 </ul></span>    <div class="post-content">
-      <p>I wrote a small explanation of a call-by-reference problem.  Taken from php.net's array_walk description, it reads:</p>
-<p>I wanted to walk an array and reverse map it into a second array.  I decided to use array_walk because it should be faster than a reset,next loop or foreach(x as &amp;$y) loop.</p>
-<p><code><br />
-&lt;?php<br />
-$output = array();<br />
-array_walk($input, 'gmapmark_reverse', $output);<br />
-//<br />
-function gmapmark_reverse(&amp;$item, $index, &amp;$target) {<br />
-    $target[$item['form_key']] = $index;<br />
-}<br />
-?&gt;<br />
-</code></p>
+      <p>With so much (healthy) competition, it’s important for startups to be innovating at the sharp end. We’ve got to focus on the tiny bit of technology that’s unique to our product and innovate around that. With such a small team (there’s 2 of us), any time we spend doing stuff that’s been done before effectively lessens our chances of differentiating our idea from the thousands of others being developed at the same time. I agree with you Alex on the two-tier system. Even those who have CS degrees need the basic stuff to get easier so we can concentrate on the hard bit of our app.</p>
     </div>
   </div> 
   
 </div>
 <div class="clear"></div>
-  <div id="node-201" class="post node">
-  <div class="post-date"><span class="post-month">Oct</span> <span class="post-day">24</span></div>
+  <div id="node-216" class="post node">
+  <div class="post-date"><span class="post-month">May</span> <span class="post-day">24</span></div>
   <div class="entry">
-    <h2><a href="technology/201/cant-test-if-non-image-file-exists-remote-server.html" rel="bookmark" title="Permanent Link to Can&#039;t test if a non-image file exists on a remote server">Can&#039;t test if a non-image file exists on a remote server</a></h2>
+    <h2><a href="technology/216/danger-defaults-windows-7-fails-share-files-when-xp-did.html" rel="bookmark" title="Permanent Link to Danger of defaults: Windows 7 fails to share files when XP did">Danger of defaults: Windows 7 fails to share files when XP did</a></h2>
     <span class="post-cat"><ul class="links inline"><li class="taxonomy_term_1 first last active"><a href="technology.1.html" rel="tag" title="" class="active">technology</a></li>
+</ul></span><span class="post-comments"><ul class="links inline"><li class="node_read_more first last"><a href="technology/216/danger-defaults-windows-7-fails-share-files-when-xp-did.html" title="Read the rest of Danger of defaults: Windows 7 fails to share files when XP did.">Read more</a></li>
 </ul></span>    <div class="post-content">
-      <p>I've been messing around with javascript, trying to find out if a javascript file exists on a remote server before loading it.  It turns out the same origin policy thwarts my ajax attempts and &lt;img&gt; tags can only test for images.</p>
-<p><iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/pxd3Z/embedded/"></iframe></p>
+      <p>Defaults are insidious things.  Windows 7 has a file sharing protocol default that isn't set out-of-the-box.  It meant that my XP machine could connect to one another, but not my new Win7 box.  It's a simple fix, then again aren't they always:</p>
+<p>Browse through to "Local Policies" then "Security Options", then "Network Security: LAN Manager authentication level"<br />
+Select "Send LM &amp; NTLM - use NTLMv2 session security if negotiated" from the dropdown.</p>
     </div>
   </div> 
   
 </div>
 <div class="clear"></div>
-  <div id="node-200" class="post node">
-  <div class="post-date"><span class="post-month">Oct</span> <span class="post-day">06</span></div>
+  <div id="node-215" class="post node">
+  <div class="post-date"><span class="post-month">May</span> <span class="post-day">15</span></div>
   <div class="entry">
-    <h2><a href="technology/200/vertical-centering-css-content-unknown-height.html" rel="bookmark" title="Permanent Link to Vertical centering in CSS for content of unknown height">Vertical centering in CSS for content of unknown height</a></h2>
+    <h2><a href="technology/215/installing-python-270-32-bit-opencv-240-under-windows-7-64-bit.html" rel="bookmark" title="Permanent Link to Installing Python 2.7.0 (32-bit) for OpenCV 2.4.0 under Windows 7 (64-bit)">Installing Python 2.7.0 (32-bit) for OpenCV 2.4.0 under Windows 7 (64-bit)</a></h2>
     <span class="post-cat"><ul class="links inline"><li class="taxonomy_term_1 first last active"><a href="technology.1.html" rel="tag" title="" class="active">technology</a></li>
+</ul></span><span class="post-comments"><ul class="links inline"><li class="node_read_more first last"><a href="technology/215/installing-python-270-32-bit-opencv-240-under-windows-7-64-bit.html" title="Read the rest of Installing Python 2.7.0 (32-bit) for OpenCV 2.4.0 under Windows 7 (64-bit).">Read more</a></li>
 </ul></span>    <div class="post-content">
-      <p>I read this excellent article on centering and as the comments are suspended, I thought I'd post about it instead.</p>
-<p>I think the floater div position is inconsistent.  In 'Which Method?' the floater is a closed tag above the content.  In Method 3 the floater wraps the content.</p>
-<p>Also a potential con for Method 3 is that you need to know the height of the content, where as you don't for Method 1.</p>
-<p>I went with Method 1 as IE9 supports it, though for wider compatibility I should include the IEx hacks.</p>
+      <p>After getting errors like this:<br />
+http://stackoverflow.com/questions/5030362/how-to-use-opencv-in-python</p>
+<p>I discovered that OpenCV works best (most easily) under Windows as 32-bit<br />
+http://luugiathuy.com/2011/02/setup-opencv-for-python/</p>
+<p>The alternative is to compile OpenCV for 64-bit<br />
+http://stackoverflow.com/questions/3919681/compiling-opencv-on-windows-7-64bit</p>
+<p>I discovered that my Windows install of Python (2.7.3) was conflicting with my (implicit) Cygwin install </p>
+<p>(2.6.5), so I removed the Python language package from Cygwin.</p>
+    </div>
+  </div> 
+  
+</div>
+<div class="clear"></div>
+  <div id="node-214" class="post node">
+  <div class="post-date"><span class="post-month">May</span> <span class="post-day">14</span></div>
+  <div class="entry">
+    <h2><a href="technology/214/scrapy-python-install-under-windows-7-x64.html" rel="bookmark" title="Permanent Link to Scrapy (python) install under Windows 7 x64">Scrapy (python) install under Windows 7 x64</a></h2>
+    <span class="post-cat"><ul class="links inline"><li class="taxonomy_term_1 first last active"><a href="technology.1.html" rel="tag" title="" class="active">technology</a></li>
+</ul></span><span class="post-comments"><ul class="links inline"><li class="node_read_more first last"><a href="technology/214/scrapy-python-install-under-windows-7-x64.html" title="Read the rest of Scrapy (python) install under Windows 7 x64.">Read more</a></li>
+</ul></span>    <div class="post-content">
+      <p>I recently managed to install scrapy on a Window 7 64-bit dev machine.  It wasn't straight forward so I've </p>
+<p>documented the process.  Here are the binary install files you need for the install:</p>
+<p>python-2.7.3.amd64.msi<br />
+lxml-2.3.4-py2.7-win-amd64.egg<br />
+pyOpenSSL-0.11.winxp32-py2.7.msi</p>
     </div>
   </div> 
   
 </div>
 <div class="clear"></div><div class="item-list"><ul class="pager"><li class="pager-first first"><a href="technology.1.html" title="Go to first page" class="active">« first</a></li>
-<li class="pager-previous"><a href="technology%3Fpage=1.html" title="Go to previous page" class="active">‹ previous</a></li>
+<li class="pager-previous"><a href="technology.1.html" title="Go to previous page" class="active">‹ previous</a></li>
 <li class="pager-item"><a href="technology.1.html" title="Go to page 1" class="active">1</a></li>
-<li class="pager-item"><a href="technology%3Fpage=1.html" title="Go to page 2" class="active">2</a></li>
-<li class="pager-current">3</li>
+<li class="pager-current">2</li>
+<li class="pager-item"><a href="technology%3Fpage=2.html" title="Go to page 3" class="active">3</a></li>
 <li class="pager-item"><a href="technology%3Fpage=3.html" title="Go to page 4" class="active">4</a></li>
 <li class="pager-item"><a href="technology%3Fpage=4.html" title="Go to page 5" class="active">5</a></li>
 <li class="pager-item"><a href="technology%3Fpage=5.html" title="Go to page 6" class="active">6</a></li>
 <li class="pager-item"><a href="technology%3Fpage=6.html" title="Go to page 7" class="active">7</a></li>
-<li class="pager-next"><a href="technology%3Fpage=3.html" title="Go to next page" class="active">next ›</a></li>
+<li class="pager-next"><a href="technology%3Fpage=2.html" title="Go to next page" class="active">next ›</a></li>
 <li class="pager-last last"><a href="technology%3Fpage=6.html" title="Go to last page" class="active">last »</a></li>
 </ul></div>    
 	<div class="navigation">

@@ -47,173 +47,183 @@ jQuery.extend(Drupal.settings, { "basePath": "/", "lightbox2": { "rtl": 0, "file
 </ul>      </div>
   <div id="content">
     <div class="breadcrumb"><a href="/">Home</a></div>                        <h2>technology</h2>    
-  <div id="node-112" class="post node">
-  <div class="post-date"><span class="post-month">Mar</span> <span class="post-day">02</span></div>
+  <div id="node-213" class="post node">
+  <div class="post-date"><span class="post-month">May</span> <span class="post-day">07</span></div>
   <div class="entry">
-    <h2><a href="technology/112/now-free-feedback.html" rel="bookmark" title="Permanent Link to ...now with free feedback">...now with free feedback</a></h2>
+    <h2><a href="technology/213/backbonejs-requires-underscorejs-be-global-page-context.html" rel="bookmark" title="Permanent Link to Backbone.js requires underscore.js to be in the global page context">Backbone.js requires underscore.js to be in the global page context</a></h2>
     <span class="post-cat"><ul class="links inline"><li class="taxonomy_term_1 first last active"><a href="technology.1.html" rel="tag" title="" class="active">technology</a></li>
 </ul></span>    <div class="post-content">
-      <p>I've just rolled out <a href="http://www.freerangefeedback.com/">free (range) feedback</a> on this site.</p>
-<p>You'll notice a little <em>Feedback</em> link on the right hand side of each page.</p>
-<p>Clicking the link allows you, you anonymous user, to write a note right on top of my page.  I can then log-in to view all the notes stuck on my pages.  Try it!</p>
+      <p>I was loading underscore.js then applying the .noConflict().  When Backbone (0.5.1) was loading, it couldn't find Underscore (window._).  This manifested as a Firefox console error "f is undefined".</p>
+<p>Once Backbone has loaded, you can safely clean up both libraries without disrupting either:</p>
+<p><code><br />
+var b, u;<br />
+b = window['Backbone'].noConflict();<br />
+u = window['_'].noConflict();<br />
+</code></p>
     </div>
   </div> 
   
 </div>
 <div class="clear"></div>
-  <div id="node-110" class="post node">
-  <div class="post-date"><span class="post-month">Mar</span> <span class="post-day">01</span></div>
+  <div id="node-212" class="post node">
+  <div class="post-date"><span class="post-month">Apr</span> <span class="post-day">25</span></div>
   <div class="entry">
-    <h2><a href="syndicate/110/formula-1-pc-game-10gbp.html" rel="bookmark" title="Permanent Link to Formula 1 PC game 10GBP">Formula 1 PC game 10GBP</a></h2>
-    <span class="post-cat"><ul class="links inline"><li class="taxonomy_term_9 first"><a href="syndicate.1.html" rel="tag" title="">syndicate</a></li>
-<li class="taxonomy_term_1 last active"><a href="technology.1.html" rel="tag" title="" class="active">technology</a></li>
-</ul></span><span class="post-comments"><ul class="links inline"><li class="node_read_more first last"><a href="syndicate/110/formula-1-pc-game-10gbp.html" title="Read the rest of Formula 1 PC game 10GBP.">Read more</a></li>
+    <h2><a href="technology/212/zendserver-upgrade-includes-mysql-51-breaks-logfile-size.html" rel="bookmark" title="Permanent Link to ZendServer upgrade includes MySQL 5.1 but breaks logfile size">ZendServer upgrade includes MySQL 5.1 but breaks logfile size</a></h2>
+    <span class="post-cat"><ul class="links inline"><li class="taxonomy_term_1 first last active"><a href="technology.1.html" rel="tag" title="" class="active">technology</a></li>
+</ul></span><span class="post-comments"><ul class="links inline"><li class="node_read_more first last"><a href="technology/212/zendserver-upgrade-includes-mysql-51-breaks-logfile-size.html" title="Read the rest of ZendServer upgrade includes MySQL 5.1 but breaks logfile size.">Read more</a></li>
 </ul></span>    <div class="post-content">
-      <p>I've been playing <a href="http://www.rfactor.net">rFactor</a> recently.  The game itself is an amazing achievement (good physics engine) but perhaps more incredible is the level of activity in <a href="http://www.rfactorcentral.com/">its mod community</a>.</p>
-<p><iframe src="http://www.youtube.com/embed/GWdFHSdL0kA?rel=1&amp;autoplay=0&amp;wmode=opaque" width="460" height="284" class="video-filter video-youtube vf-gwdfhsdl0ka" frameborder="0"></iframe></p>
-<p>CTDP publish an F1 2006 mod, for free, which as you can see if both highly detailed and playable (you'll have to take my word on the second part).</p>
+      <p>I recently upgraded my ZendServer (development) from 5.0 to 5.6.0.  This includes PHP 5.2.17 and 5.1.50.  Everything worked very smoothly, but when I restarted my machine MySQL failed to start (Error 1067).  I googled my way to this post, then found the .err file in MySQL's /data directory:</p>
+<p><code><br />
+InnoDB: Error: log file .\ib_logfile0 is of different size 0 45088768 bytes<br />
+InnoDB: than specified in the .cnf file 0 56623104 bytes!</code></p>
     </div>
   </div> 
   
 </div>
 <div class="clear"></div>
-  <div id="node-103" class="post node">
-  <div class="post-date"><span class="post-month">Feb</span> <span class="post-day">18</span></div>
+  <div id="node-211" class="post node">
+  <div class="post-date"><span class="post-month">Apr</span> <span class="post-day">20</span></div>
   <div class="entry">
-    <h2><a href="103/windows-folder-shortcuts-using-relative-paths.html" rel="bookmark" title="Permanent Link to Windows folder shortcuts using relative paths">Windows folder shortcuts using relative paths</a></h2>
+    <h2><a href="technology/211/synchronising-time-between-two-linux-servers-using-ssh.html" rel="bookmark" title="Permanent Link to synchronising time between two linux servers using SSH">synchronising time between two linux servers using SSH</a></h2>
     <span class="post-cat"><ul class="links inline"><li class="taxonomy_term_1 first last active"><a href="technology.1.html" rel="tag" title="" class="active">technology</a></li>
 </ul></span>    <div class="post-content">
-      <p>Windows XP does not allow relative paths to be used in folder shortcuts.  However you can create a .bat file which opens a folder using a relative path:</p>
-<p>&#37;SystemRoot&#37;\explorer.exe "core\masters\functionspace\accounting"</p>
-<p>This spawns a new Explorer window, whereas a simple shortcut double-click will open the folder in the same viewer.</p>
+      <p>NTP is a fantastic protocol, but there are cases where you don't want to have another daemon running on a server.  This script connects from machine A to machine B using SSH, reads the time from B and applies it to A.</p>
+<p><code><br />
+# fetch time from machine B<br />
+time=`ssh user@b.domain.com -p522 "date +'%m%d%H%M%Y'"`<br />
+# apply date to local machine (A)<br />
+echo "Setting time to "$time<br />
+date $time<br />
+</code></p>
     </div>
   </div> 
   
 </div>
 <div class="clear"></div>
-  <div id="node-100" class="post node">
-  <div class="post-date"><span class="post-month">Jan</span> <span class="post-day">24</span></div>
+  <div id="node-210" class="post node">
+  <div class="post-date"><span class="post-month">Mar</span> <span class="post-day">27</span></div>
   <div class="entry">
-    <h2><a href="100/windows-live-mail-server-2003.html" rel="bookmark" title="Permanent Link to Windows Live Mail on Server 2003">Windows Live Mail on Server 2003</a></h2>
+    <h2><a href="technology/210/make-skype-start-minimised.html" rel="bookmark" title="Permanent Link to Make Skype start minimised">Make Skype start minimised</a></h2>
     <span class="post-cat"><ul class="links inline"><li class="taxonomy_term_1 first last active"><a href="technology.1.html" rel="tag" title="" class="active">technology</a></li>
+</ul></span><span class="post-comments"><ul class="links inline"><li class="upload_attachments first last"><a href="technology/210/make-skype-start-minimised.html#attachments" title="Read full article to view attachments.">4 attachments</a></li>
 </ul></span>    <div class="post-content">
-      <p>It is possible!</p>
-<p><a href="http://dirk.net/2008/01/30/windows-live-programs-eschew-windows-server-2003/">http://dirk.net/2008/01/30/windows-live-programs-eschew-windows-server-2003/</a></p>
-<p>Subtle change<br />
-Program Files > Common Files > Windows Live > .cache (hidden)</p>
-<p>You need all the installers.</p>
+      <p>Every time I restart my computer, Skype (5.5) loads, logs in and opens a window.  I discovered how to make it load minimised:</p>
+<ul>
+<li>Find the Skype program files folder(C:\Program Files (x86)\Skype\Phone)</li>
+<li>Create a new shortcut</li>
+<li>Modify the target to read /secondary /minimized</li>
+<li>Find the Windows startup folder</li>
+<li>Delete or move the old Skype shortcut out</li>
+<li>Move the new shortcut in</li>
+<li>Run Skype, select View -&gt; Compact mode</li>
+</ul>
     </div>
   </div> 
   
 </div>
 <div class="clear"></div>
-  <div id="node-97" class="post node">
-  <div class="post-date"><span class="post-month">Jan</span> <span class="post-day">24</span></div>
+  <div id="node-206" class="post node">
+  <div class="post-date"><span class="post-month">Jan</span> <span class="post-day">10</span></div>
   <div class="entry">
-    <h2><a href="97/how-process-credit-card-refunds-quickbooks.html" rel="bookmark" title="Permanent Link to How to process credit card refunds in Quickbooks">How to process credit card refunds in Quickbooks</a></h2>
+    <h2><a href="technology/206/value-good-backup.html" rel="bookmark" title="Permanent Link to The value of a good backup">The value of a good backup</a></h2>
     <span class="post-cat"><ul class="links inline"><li class="taxonomy_term_1 first last active"><a href="technology.1.html" rel="tag" title="" class="active">technology</a></li>
-</ul></span><span class="post-comments"><ul class="links inline"><li class="node_read_more first last"><a href="97/how-process-credit-card-refunds-quickbooks.html" title="Read the rest of How to process credit card refunds in Quickbooks.">Read more</a></li>
+</ul></span><span class="post-comments"><ul class="links inline"><li class="node_read_more first last"><a href="technology/206/value-good-backup.html" title="Read the rest of The value of a good backup.">Read more</a></li>
 </ul></span>    <div class="post-content">
-      <p>I've really struggled with this recently in Quickbooks 2004.  I think I've got it sorted now, so here's the process I followed.</p>
-<p>Situation: I buy something (for 99.99) and pay with the company credit card.  Weeks later (perhaps in the next VAT quarter) I send it back.  The company issues a credit note and refunds my credit card.</p>
-<p>Original bill<br />
-Items filed in account: Insurance<br />
-Paid by credit card.  Credit card gets reconciled.  Credit card bill paid by direct debit from Current account.</p>
-<p>On receiving the credit note<br />
-Create credit note (like Create Bill, just credit note)</p>
+      <p>I've got a <a href="http://wdc.com/en/products/products.aspx?id=30">2TB Western Digital drive</a> that's showing the early signs of failure.  It corrupted a 1GB file the other day.  The thing is that corruption could be caused by the NTFS driver (<a href="http://www.tuxera.com/products/tuxera-ntfs-for-mac/">Tuxera NTFS for Mac</a>), or even the media encoding software that produced the file (<a href="http://handbrake.fr/">Handbrake</a>).  Only time will tell when either a second file is corrupted, or the drive entirely fails.</p>
     </div>
   </div> 
   
 </div>
 <div class="clear"></div>
-  <div id="node-99" class="post node">
-  <div class="post-date"><span class="post-month">Dec</span> <span class="post-day">19</span></div>
+  <div id="node-205" class="post node">
+  <div class="post-date"><span class="post-month">Jan</span> <span class="post-day">05</span></div>
   <div class="entry">
-    <h2><a href="technology/99/using-free-usb-flight-sim-fms-spektrum-dx6i-controller.html" rel="bookmark" title="Permanent Link to Using free USB flight sim FMS with Spektrum DX6i controller">Using free USB flight sim FMS with Spektrum DX6i controller</a></h2>
+    <h2><a href="technology/205/firefox-showing-spinner-indefinitely-html-5-videojs-ogg-embed.html" rel="bookmark" title="Permanent Link to Firefox showing spinner indefinitely for HTML 5 (video.js) .ogg embed">Firefox showing spinner indefinitely for HTML 5 (video.js) .ogg embed</a></h2>
     <span class="post-cat"><ul class="links inline"><li class="taxonomy_term_1 first last active"><a href="technology.1.html" rel="tag" title="" class="active">technology</a></li>
-</ul></span><span class="post-comments"><ul class="links inline"><li class="node_read_more first"><a href="technology/99/using-free-usb-flight-sim-fms-spektrum-dx6i-controller.html" title="Read the rest of Using free USB flight sim FMS with Spektrum DX6i controller.">Read more</a></li>
-<li class="upload_attachments last"><a href="technology/99/using-free-usb-flight-sim-fms-spektrum-dx6i-controller.html#attachments" title="Read full article to view attachments.">1 attachment</a></li>
+</ul></span><span class="post-comments"><ul class="links inline"><li class="node_read_more first last"><a href="technology/205/firefox-showing-spinner-indefinitely-html-5-videojs-ogg-embed.html" title="Read the rest of Firefox showing spinner indefinitely for HTML 5 (video.js) .ogg embed.">Read more</a></li>
 </ul></span>    <div class="post-content">
-      <p>Blade 400 Helicopter, ships with DX6i controller</p>
-<p>I couldn't make it work using a Mono Audio cable (Trainer/Buddy socket to PC Audio Mic input/line-in).  I recommend buying a USB connector.</p>
-<p>USB Cable<br />
-I bought a GWS (www.gws.com.tw) GWFSM002B USB to Mono cable (JR/Spektrum).</p>
-<p>The manual (single side of paper) eludes to downloading a driver.  I couldn't find one.  I think it means FMS.</p>
-<p>FMS 7 Beta<br />
-http://n.ethz.ch/~mmoeller/fms/index_e.html</p>
-<p>Setup new model on DX6i</p>
+      <p>One of my sites uses HTML 5 to show video on the homepage.  The VfE embed worked fine in Safari/Chrome/IE but had stopped working in Firefox.  It just left the loading spinner spinning indefinitely and refused to play.  I tracked it down to the source=".../video.ogg" line.</p>
     </div>
   </div> 
   
 </div>
 <div class="clear"></div>
-  <div id="node-98" class="post node">
-  <div class="post-date"><span class="post-month">Dec</span> <span class="post-day">13</span></div>
+  <div id="node-203" class="post node">
+  <div class="post-date"><span class="post-month">Jan</span> <span class="post-day">05</span></div>
   <div class="entry">
-    <h2><a href="technology/98/image-processing-jpegs.html" rel="bookmark" title="Permanent Link to Image processing JPEGs">Image processing JPEGs</a></h2>
+    <h2><a href="technology/203/google-maps-tile-display-bug-kml-layers.html" rel="bookmark" title="Permanent Link to Google Maps tile display bug for KML layers">Google Maps tile display bug for KML layers</a></h2>
     <span class="post-cat"><ul class="links inline"><li class="taxonomy_term_1 first last active"><a href="technology.1.html" rel="tag" title="" class="active">technology</a></li>
+</ul></span><span class="post-comments"><ul class="links inline"><li class="node_read_more first"><a href="technology/203/google-maps-tile-display-bug-kml-layers.html" title="Read the rest of Google Maps tile display bug for KML layers.">Read more</a></li>
+<li class="upload_attachments last"><a href="technology/203/google-maps-tile-display-bug-kml-layers.html#attachments" title="Read full article to view attachments.">2 attachments</a></li>
 </ul></span>    <div class="post-content">
-      <p>I've wanted to play with some image processing techniques for ages.  This is how I opened a JPEG file for image processing.  I'm using Visual Studio 2008 and CImg.</p>
-<p>Download CImg<br />
-http://cimg.sourceforge.net/download.shtml</p>
-<p>To use some of the examples (e.g. jpeg_buffer) you need Jpeglib</p>
-<p>Download Win32 version of Jpeglib:<br />
-http://eng.neologica.it/download/downloadIJGWin32.html</p>
+      <p>I've encountered a problem with the Google Maps API, specifically with the <a href="http://code.google.com/apis/maps/documentation/javascript/layers.html#KMLLayers">KML layers</a> on my <a href="http://www.surfysurveys.com/node/982/map">Surfy Survey map</a>.  The KML-enhanced tiles occasionally fail to load and default back to the normal tiles.  This produces a map that shows part of a heatmap, as the two images below illustrate.  This behavior is non-deterministic.</p>
     </div>
   </div> 
   
 </div>
 <div class="clear"></div>
-  <div id="node-90" class="post node">
-  <div class="post-date"><span class="post-month">Dec</span> <span class="post-day">11</span></div>
+  <div id="node-202" class="post node">
+  <div class="post-date"><span class="post-month">Oct</span> <span class="post-day">27</span></div>
   <div class="entry">
-    <h2><a href="90/polar-f6-weblink.html" rel="bookmark" title="Permanent Link to Polar F6 with Weblink">Polar F6 with Weblink</a></h2>
+    <h2><a href="technology/202/arraywalk-snippet-phpnet.html" rel="bookmark" title="Permanent Link to array_walk snippet on php.net">array_walk snippet on php.net</a></h2>
     <span class="post-cat"><ul class="links inline"><li class="taxonomy_term_1 first last active"><a href="technology.1.html" rel="tag" title="" class="active">technology</a></li>
-</ul></span><span class="post-comments"><ul class="links inline"><li class="node_read_more first last"><a href="90/polar-f6-weblink.html" title="Read the rest of Polar F6 with Weblink.">Read more</a></li>
+</ul></span><span class="post-comments"><ul class="links inline"><li class="node_read_more first last"><a href="technology/202/arraywalk-snippet-phpnet.html" title="Read the rest of array_walk snippet on php.net.">Read more</a></li>
 </ul></span>    <div class="post-content">
-      <p>I bought a Polar F6 about a year ago and it's been brilliant.  It's pretty reliable, glows in the dark and if you hold the watch to the heartband while running it pings and tells you how hard your working.</p>
-<p>Until today I've been unable to get it to upload exercise logs to my computer.  It turns out the problem was my computer.  For some reason my laptop mic just doesn't pick up the signal sufficiently well.  My webcam on the other hand worked first time!</p>
+      <p>I wrote a small explanation of a call-by-reference problem.  Taken from php.net's array_walk description, it reads:</p>
+<p>I wanted to walk an array and reverse map it into a second array.  I decided to use array_walk because it should be faster than a reset,next loop or foreach(x as &amp;$y) loop.</p>
+<p><code><br />
+&lt;?php<br />
+$output = array();<br />
+array_walk($input, 'gmapmark_reverse', $output);<br />
+//<br />
+function gmapmark_reverse(&amp;$item, $index, &amp;$target) {<br />
+    $target[$item['form_key']] = $index;<br />
+}<br />
+?&gt;<br />
+</code></p>
     </div>
   </div> 
   
 </div>
 <div class="clear"></div>
-  <div id="node-73" class="post node">
-  <div class="post-date"><span class="post-month">Aug</span> <span class="post-day">25</span></div>
+  <div id="node-201" class="post node">
+  <div class="post-date"><span class="post-month">Oct</span> <span class="post-day">24</span></div>
   <div class="entry">
-    <h2><a href="73/freecycle.html" rel="bookmark" title="Permanent Link to Freecycle">Freecycle</a></h2>
+    <h2><a href="technology/201/cant-test-if-non-image-file-exists-remote-server.html" rel="bookmark" title="Permanent Link to Can&#039;t test if a non-image file exists on a remote server">Can&#039;t test if a non-image file exists on a remote server</a></h2>
     <span class="post-cat"><ul class="links inline"><li class="taxonomy_term_1 first last active"><a href="technology.1.html" rel="tag" title="" class="active">technology</a></li>
-</ul></span><span class="post-comments"><ul class="links inline"><li class="node_read_more first last"><a href="73/freecycle.html" title="Read the rest of Freecycle.">Read more</a></li>
 </ul></span>    <div class="post-content">
-      <p>Really into Freecycle at the moment.  It's a mailing list where people give away stuff.  For more information Google Freecycle or go to <a href="http://www.freecycle.org/">Freecycle.org</a>.</p>
-<p>I think it's the best sort of recycling because the product doesn't have to be broken down in parts and then rebuilt.  Here are a few things I'm freecycling today:</p>
+      <p>I've been messing around with javascript, trying to find out if a javascript file exists on a remote server before loading it.  It turns out the same origin policy thwarts my ajax attempts and &lt;img&gt; tags can only test for images.</p>
+<p><iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/pxd3Z/embedded/"></iframe></p>
     </div>
   </div> 
   
 </div>
 <div class="clear"></div>
-  <div id="node-101" class="post node">
-  <div class="post-date"><span class="post-month">May</span> <span class="post-day">26</span></div>
+  <div id="node-200" class="post node">
+  <div class="post-date"><span class="post-month">Oct</span> <span class="post-day">06</span></div>
   <div class="entry">
-    <h2><a href="101/simple-panorama.html" rel="bookmark" title="Permanent Link to Simple panorama">Simple panorama</a></h2>
+    <h2><a href="technology/200/vertical-centering-css-content-unknown-height.html" rel="bookmark" title="Permanent Link to Vertical centering in CSS for content of unknown height">Vertical centering in CSS for content of unknown height</a></h2>
     <span class="post-cat"><ul class="links inline"><li class="taxonomy_term_1 first last active"><a href="technology.1.html" rel="tag" title="" class="active">technology</a></li>
-</ul></span><span class="post-comments"><ul class="links inline"><li class="upload_attachments first last"><a href="101/simple-panorama.html#attachments" title="Read full article to view attachments.">1 attachment</a></li>
 </ul></span>    <div class="post-content">
-      <p>Here's a simple Panorama shot using a standard compact digital camera and stitched effortlessly using Adobe Photoshop CS3.</p>
-<p><a href=/sitefiles/alexstanhope.com/pano1small.jpg"><img src=/sitefiles/alexstanhope.com/pano1small.jpg" alt="Red earth field" /></a></p>
+      <p>I read this excellent article on centering and as the comments are suspended, I thought I'd post about it instead.</p>
+<p>I think the floater div position is inconsistent.  In 'Which Method?' the floater is a closed tag above the content.  In Method 3 the floater wraps the content.</p>
+<p>Also a potential con for Method 3 is that you need to know the height of the content, where as you don't for Method 1.</p>
+<p>I went with Method 1 as IE9 supports it, though for wider compatibility I should include the IEx hacks.</p>
     </div>
   </div> 
   
 </div>
 <div class="clear"></div><div class="item-list"><ul class="pager"><li class="pager-first first"><a href="technology.1.html" title="Go to first page" class="active">« first</a></li>
-<li class="pager-previous"><a href="technology%3Fpage=5.html" title="Go to previous page" class="active">‹ previous</a></li>
+<li class="pager-previous"><a href="technology%3Fpage=1.html" title="Go to previous page" class="active">‹ previous</a></li>
 <li class="pager-item"><a href="technology.1.html" title="Go to page 1" class="active">1</a></li>
 <li class="pager-item"><a href="technology%3Fpage=1.html" title="Go to page 2" class="active">2</a></li>
-<li class="pager-item"><a href="technology%3Fpage=2.html" title="Go to page 3" class="active">3</a></li>
+<li class="pager-current">3</li>
 <li class="pager-item"><a href="technology%3Fpage=3.html" title="Go to page 4" class="active">4</a></li>
 <li class="pager-item"><a href="technology%3Fpage=4.html" title="Go to page 5" class="active">5</a></li>
 <li class="pager-item"><a href="technology%3Fpage=5.html" title="Go to page 6" class="active">6</a></li>
-<li class="pager-current last">7</li>
+<li class="pager-item"><a href="technology%3Fpage=6.html" title="Go to page 7" class="active">7</a></li>
+<li class="pager-next"><a href="technology%3Fpage=3.html" title="Go to next page" class="active">next ›</a></li>
+<li class="pager-last last"><a href="technology%3Fpage=6.html" title="Go to last page" class="active">last »</a></li>
 </ul></div>    
 	<div class="navigation">
 	  <span class="previous-entries"></span> <span class="next-entries"></span>
