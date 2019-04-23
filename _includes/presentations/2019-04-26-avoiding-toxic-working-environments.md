@@ -10,6 +10,7 @@
 	<h3>A non-toxic working environment</h3>
 	<p>Mythical, far-away</p>
 </div>
+<p class="credit"><a href="https://www.flickr.com/photos/puuikibeach/2779295211/in/photolist-5eABCX-ec3w2-hD5PR-6KZBmQ-4Sd52P-5Ep9FU-7SEZiC-HmzWoa-dq7WXM-FwUou1-eRS9x-4XmFDX-4XmGiF-eRSsP-4ZFJN3-pBLq4p-HGE6a-5WZ6a8-7vEWy-9ddNQf-6Qmfwd-6RMSZj-CdS9d-E1Kadr-pADsTJ-fs6NMf-4dog6A-6Qh97B-6QmftQ-6RMSS9-6RHRDi-6Qmg2o-92TuQm-6Qh9Lz-4XmG6B-4ZBZVD-6RMU9u-93QCsS-6QhaLT-6RHP3p-6RHQni-6RHNUt-frRvgx-8HMe6z-9YKtTJ-5Sa451-6QmfWh-3nmk6L-6RMT5W-oTHWEc">Photo credit: Rejected Narnia Concept, davidd 2008</a></p>
 
 ---
 
@@ -19,11 +20,14 @@
 	<h3>Unreachable</h3>
 	<p>Requires a Herculean effort to get there</p>
 </div>
+<p class="credit"><a href="https://commons.wikimedia.org/wiki/File:Twelve_Labours_Altemps_Inv8642.jpg">Photo credit: Twelve Labours Altemps, Ludovisi Collection, Museo nazionale romano di palazzo Altemps</a></p>
 
 ---
 
 </section>
 <section data-background-transition="zoom" data-background-image="/assets/images/non-toxic-working/alan_sugar_hercules.jpg">
+<p class="credit"><a href="https://commons.wikimedia.org/wiki/File:Sir_Alan_Sugar_at_the_BAFTA%27s_crop.jpg">Photo credit: Sir Alan Sugar at the BAFTAs, Damien Everett 2009</a></p>
+
 
 ---
 {% endif %}
@@ -212,12 +216,20 @@
 
 ---
 
-### The descent into toxicity
-Communication descends:
-* grumbling/complaining
-* sarcasm/cynicism
-* blaming others/scapegoating
-* withdrawl/resigation
+{% if include.pres %}
+</section>
+<section data-background-image="/assets/images/non-toxic-working/descent_IST_4649_05641.jpg">
+{% endif %}
+<div class="iframe-overlay">
+	<h3>The descent into toxicity</h3>
+	<p>Communication descends into:</p>
+	<ul>
+	<li>grumbling/complaining</li>
+    <li>sarcasm/cynicism</li>
+    <li>blaming others/scapegoating</li>
+    <li>withdrawl/resigation</li>
+    </ul>
+</div>
 
 {% if include.pres %}Note: {% endif %}
 
@@ -229,7 +241,7 @@ Communication descends:
 * Male colleagues earn more than women
 * When employees voice their concerns there is no action
 
-<p class="source">Source: Entrepreneur magazine, 2017, <a href="https://www.entrepreneur.com/article/300514">10 Signs You've Got a Toxic Workplace Culture, Bro</a> and <a href="https://www.entrepreneur.com/slideshow/308288">5 Ways to Tell If Your Workplace Is Really Toxic</a>.</p>
+<p class="source">Source: Entrepreneur magazine, 2017, <a href="https://www.entrepreneur.com/article/300514">10 Signs You've Got a Toxic Workplace Culture, Bro</a>.</p>
 
 {% if include.pres %}Note: {% endif %}
 
@@ -241,7 +253,7 @@ Communication descends:
 * Narcissistic leaders
 * Physical and emotional health effects, often not talked about
 
-<p class="source">Source: Entrepreneur magazine, 2017, <a href="https://www.entrepreneur.com/article/300514">10 Signs You've Got a Toxic Workplace Culture, Bro</a> and <a href="https://www.entrepreneur.com/slideshow/308288">5 Ways to Tell If Your Workplace Is Really Toxic</a>.</p>
+<p class="source">Source: Entrepreneur magazine, 2017, <a href="https://www.entrepreneur.com/slideshow/308288">5 Ways to Tell If Your Workplace Is Really Toxic</a>.</p>
 
 {% if include.pres %}Note: {% endif %}
 
@@ -322,8 +334,9 @@ Embrace your inner crapness, it'll make you more tolerant of others'.
 {% endif %}
 <div class="iframe-overlay">
 	<h3>Zebra school</h3>
-	<p>Trudi West, Hult Business School</p>
+	<p>Learning to survive</p>
 </div>
+<p class="credit"><a href="https://www.flickr.com/photos/sjgolding/29479093840/in/photolist-LUY4yC-8UfgEU-53SQ7L-Ti3zmy-8UcbMK-farTFh-vv8SA-ajZzfq-kMju-5G4sa-eLTsj-5bpJgr-85cHvU-5KXoLb-5JZG2d-9UhyNV-5fuEJ-facDti-9vMxLx-9NGF2G-6XquD8-9NGDRY-4qv6AT-9gbbfu-JkByj-qE5SM-79oB5A-aicJCS-9NDSGx-8SdeYP-pwesBE-8SA2U4-9gLbVC-8mYCLD-huX1Fj-dzJCgG-aqXLSK-8983cU-9NGDG9-9NDSb6-a5FkS-4qhPbA-9NDSoH-VR1EUM-97xpZ5-9pdjmj-bs4zBK-p9SrhQ-oNqxaw-dVVxLr">Photo credit: Zebras, susanjanegolding 2016</a></p>
 
 {% if include.pres %}Note: {% endif %}
 
@@ -338,5 +351,17 @@ Embrace your inner crapness, it'll make you more tolerant of others'.
 	<p>Elephants, wolves, orcas, or dolphins</p>
 	<p>alexstanhope.com</p>
 </div>
+<p class="credit"><a href="https://www.flickr.com/photos/fvfavo/15438676625/in/photolist-pwgfFK-8aZeeq-5bpMwF-eijquj-5tu2LA-q8VW4w-7MwoBf-bXr6sb-WACUh8-dTALXi-8xYnkT-huWLWp-7UvGA4-dTADKB-727MVN-7ciigm-bxHpAg-5bu5HG-8Hxyto-bXqUmb-8JBBqV-8yf5A6-dTdCtk-bwDTgT-q94Dvx-mjhsG-8WFA5H-729cH1-br3EeL-8n63XE-aMnuBn-FLBtW7-9znHhM-SFwf8q-RWs5kt-XLR3YE-SAvBEq-pjW4MU-Tbn5Tn-9BZY4Q-ahqfpS-pmbQpo-e1PExY-9BX22r-RXwjH2-Gskmt-4qhPoW-WBqQpt-d4CLLL-8Xh9nu">Photo credit: Lion, Mario Micklisch 2014</a></p>
 
 {% if include.pres %}Note: {% endif %}Several species demonstrate care for their pack and others (<a href="https://www.onegreenplanet.org/animalsandnature/animal-species-with-strong-family-bonds/">OneGreenPlanet: 6 Animal Species With Strong Family Bonds</a>).
+
+---
+
+### Questions
+
+---
+
+### References in-line
+* Most references are in-lined above
+* But also Dani Grodsky, Kelly McGonigal, Trudi West
+
