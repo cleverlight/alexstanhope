@@ -83,8 +83,9 @@
 
 ---
 
-</section>
-<section data-background-image="/assets/images/non-toxic-working/maslow_603660668.jpg">
+<div class="big-single" style="font-size: 0.5em;">
+<img src="/assets/images/non-toxic-working/maslow_603660668.jpg" alt="Maslow's hierarchy of needs, again" />
+</div>
 
 ---
 
