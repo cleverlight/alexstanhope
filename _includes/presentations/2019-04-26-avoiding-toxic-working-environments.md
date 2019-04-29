@@ -16,15 +16,15 @@
 ## Non-toxic working environments
 
 <div class="big-single">
-<img src="/assets/images/non-toxic-working/rejected_narnia_concept_2779295211_6d4ab4c22e_o.jpg" alt="Maslow's hierarchy of needs, again" />
+<img src="/assets/images/non-toxic-working/rejected_narnia_concept_2779295211_6d4ab4c22e_o.jpg" alt="Non-mythical non-toxic working environments" />
 </div>
 {% endif %}
 
 <p class="credit"><a href="https://www.flickr.com/photos/puuikibeach/2779295211/in/photolist-5eABCX-ec3w2-hD5PR-6KZBmQ-4Sd52P-5Ep9FU-7SEZiC-HmzWoa-dq7WXM-FwUou1-eRS9x-4XmFDX-4XmGiF-eRSsP-4ZFJN3-pBLq4p-HGE6a-5WZ6a8-7vEWy-9ddNQf-6Qmfwd-6RMSZj-CdS9d-E1Kadr-pADsTJ-fs6NMf-4dog6A-6Qh97B-6QmftQ-6RMSS9-6RHRDi-6Qmg2o-92TuQm-6Qh9Lz-4XmG6B-4ZBZVD-6RMU9u-93QCsS-6QhaLT-6RHP3p-6RHQni-6RHNUt-frRvgx-8HMe6z-9YKtTJ-5Sa451-6QmfWh-3nmk6L-6RMT5W-oTHWEc">Photo credit: Rejected Narnia Concept, davidd 2008</a></p>
 
-{% if include.pres %}Note: {% endif %}Who would want to work in a toxic environment?  Surely no one, right?  Rather like [non-carcinogenic drinking water](https://www.healthline.com/health-news/cancer-causing-chemical-probably-in-drinking-water#1) or smoke-free schools, our workplaces are heavily-regulated entities designed to keep consumers safe.
+{% if include.pres %}Note: {% endif %}Who would want to work in a toxic environment?  Surely no one, right?  Rather like [non-carcinogenic drinking water](https://www.healthline.com/health-news/cancer-causing-chemical-probably-in-drinking-water#1) or smoke-free schools, our workplaces are heavily-regulated entities designed to keep us safe.
 
-The danger when talking about non-toxic working environments is that they can sound a bit mythical, but in reality toxicity in the workplace can make working life hell.
+Non-toxic working environments are achievable with a shared vision and the right level of commitment.
 
 ---
 
@@ -334,9 +334,8 @@ It might show up in absenteeism, number and nature of complaints, hiring stats o
 
 ---
 
-### Indicators (continued)
 * Employees don’t know what’s expected of them
-* Policies are followed inconsistenty
+* Policies are followed inconsistently
 * Narcissistic leaders
 * Physical and emotional health effects, often not talked about
 
