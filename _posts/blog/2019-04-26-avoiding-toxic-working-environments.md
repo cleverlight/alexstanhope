@@ -10,3 +10,5 @@ header:
 {% include presentations/2019-04-26-avoiding-toxic-working-environments.md %}
 
 [Presentation only](reveal/)
+
+<a href="/assets/images/non-toxic-working/Alex_Stanhope-headshot-BC0283.jpg"><img style="width: 75px;" src="/assets/images/non-toxic-working/Alex_Stanhope-headshot-BC0283.jpg" alt="Alex Stanhope, programme headshot" /></a>
