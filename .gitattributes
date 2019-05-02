@@ -14,4 +14,6 @@
 *.ttf binary
 *.woff binary
 *.woff2 binary
-
+*.gif binary
+*.zip binary
+*.xls binary
