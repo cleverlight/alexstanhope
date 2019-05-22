@@ -5,8 +5,12 @@ description: The things we can all do to stop our workplaces becoming bad for ou
 tags: front
 toc: true
 header:
+    og_video: https://www.youtube.com/v/Y5vGTiQZpHk/
     overlay_image: /assets/images/toxic_thinking_ISS_4266_05435_1920x.jpg
 ---
+
+{% include video id="Y5vGTiQZpHk" provider="youtube" %}
+
 {% include presentations/2019-04-26-avoiding-toxic-working-environments.md %}
 
 [Presentation only](reveal/)
