@@ -3,6 +3,7 @@ layout: reveal
 title: What I do
 description: Technical architecture is a widely adopted in the IT sector, but not widely understood outside of it
 permalink: /in/2021/what-i-do/reveal/
+reveal_theme: night.css
 ---
 
 {% include reveal_slide-start.html %}
