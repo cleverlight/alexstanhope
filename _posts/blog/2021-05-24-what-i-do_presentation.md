@@ -7,6 +7,6 @@ permalink: /in/2021/what-i-do/reveal/
 
 {% include reveal_slide-start.html %}
 
-{% include presentations/2021-05-24-what-i-do.md pres=true %}
+{% include presentations/2021-05-24-what-I-do.md pres=true %}
 
 {% include reveal_slide-finish.html %}
