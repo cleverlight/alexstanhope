@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 510" width="500" height="500">
+  <!-- Background circle -->
+  <circle cx="250" cy="250" r="230" fill="none" stroke="#4a3728" stroke-width="3"/>
+
+  <!-- Inner connecting circle -->
+  <circle cx="250" cy="250" r="150" fill="none" stroke="#b8a090" stroke-width="1.5" stroke-dasharray="8,4"/>
+
+  <!-- Quadrant axes -->
+  <!-- Vertical axis: Personal (top) to Impersonal (bottom) -->
+  <line x1="250" y1="30" x2="250" y2="470" stroke="#b8a090" stroke-width="1.5"/>
+  <!-- Horizontal axis: Personal relationships (left) to Collective/Cultural (right) -->
+  <line x1="30" y1="250" x2="470" y2="250" stroke="#b8a090" stroke-width="1.5"/>
+
+  <!-- Axis labels -->
+  <text x="250" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#7a6a5a" font-style="italic">Personal</text>
+  <text x="250" y="490" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#7a6a5a" font-style="italic">Impersonal</text>
+  <text x="18" y="250" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#7a6a5a" font-style="italic" transform="rotate(-90, 18, 250)">Relationship</text>
+  <text x="482" y="250" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#7a6a5a" font-style="italic" transform="rotate(90, 482, 250)">Collective</text>
+
+  <!-- Center point with feminine symbol -->
+  <circle cx="250" cy="250" r="30" fill="#f5e6d3" stroke="#4a3728" stroke-width="2"/>
+  <!-- Venus/feminine symbol in center -->
+  <circle cx="250" cy="243" r="12" fill="none" stroke="#4a3728" stroke-width="2"/>
+  <line x1="250" y1="255" x2="250" y2="272" stroke="#4a3728" stroke-width="2"/>
+  <line x1="242" y1="264" x2="258" y2="264" stroke="#4a3728" stroke-width="2"/>
+
+  <!-- Connecting lines from center to each archetype (4 corners) -->
+  <line x1="250" y1="250" x2="105" y2="105" stroke="#b8a090" stroke-width="1.5"/>
+  <line x1="250" y1="250" x2="395" y2="105" stroke="#b8a090" stroke-width="1.5"/>
+  <line x1="250" y1="250" x2="395" y2="395" stroke="#b8a090" stroke-width="1.5"/>
+  <line x1="250" y1="250" x2="105" y2="395" stroke="#b8a090" stroke-width="1.5"/>
+
+  <!-- THE MOTHER - Top Left (Personal + Relationship) -->
+  <g transform="translate(105, 105)">
+    <circle cx="0" cy="0" r="45" fill="#8d6e63" stroke="#5d4037" stroke-width="2"/>
+    <!-- Nurturing hands cradling -->
+    <path d="M-15 5 Q-20 -5 -12 -12 Q-5 -18 0 -10 Q5 -18 12 -12 Q20 -5 15 5 Q10 15 0 18 Q-10 15 -15 5 Z" fill="#fff3e0" stroke="#5d4037" stroke-width="1"/>
+    <!-- Small figure being nurtured -->
+    <circle cx="0" cy="2" r="6" fill="#ffcc80"/>
+    <ellipse cx="0" cy="10" rx="4" ry="6" fill="#ffcc80"/>
+  </g>
+  <text x="105" y="165" text-anchor="middle" font-family="Georgia, serif" font-size="15" font-weight="bold" fill="#4a3728">MOTHER</text>
+  <text x="105" y="180" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#7a6a5a">The Nurturer</text>
+  <text x="105" y="194" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#9a8a7a">Caring • Protection</text>
+  <text x="105" y="206" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#9a8a7a">Home • Development</text>
+
+  <!-- THE HETAIRA - Top Right (Personal + Collective) -->
+  <g transform="translate(395, 105)">
+    <circle cx="0" cy="0" r="45" fill="#e91e63" stroke="#c2185b" stroke-width="2"/>
+    <!-- Two intertwined flames/souls representing companionship -->
+    <path d="M-8 12 Q-15 0 -10 -10 Q-5 -5 -6 -15 Q-3 -8 0 -5 Q-5 5 -8 12 Z" fill="#ffcdd2"/>
+    <path d="M8 12 Q15 0 10 -10 Q5 -5 6 -15 Q3 -8 0 -5 Q5 5 8 12 Z" fill="#f48fb1"/>
+    <!-- Heart connection -->
+    <path d="M0 8 L-5 3 A4 4 0 0 1 0 -2 A4 4 0 0 1 5 3 Z" fill="#fff"/>
+  </g>
+  <text x="395" y="165" text-anchor="middle" font-family="Georgia, serif" font-size="15" font-weight="bold" fill="#4a3728">HETAIRA</text>
+  <text x="395" y="180" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#7a6a5a">The Companion</text>
+  <text x="395" y="194" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#9a8a7a">Lover • Friend</text>
+  <text x="395" y="206" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#9a8a7a">Relationship • Soul</text>
+
+  <!-- THE AMAZON - Bottom Left (Impersonal + Relationship/Independence) -->
+  <g transform="translate(105, 395)">
+    <circle cx="0" cy="0" r="45" fill="#1565c0" stroke="#0d47a1" stroke-width="2"/>
+    <!-- Shield and spear representing independence and achievement -->
+    <ellipse cx="-5" cy="2" rx="12" ry="15" fill="#90caf9" stroke="#0d47a1" stroke-width="1"/>
+    <!-- Shield emblem -->
+    <path d="M-5 -5 L-5 8 M-10 0 L0 0" stroke="#0d47a1" stroke-width="2"/>
+    <!-- Spear -->
+    <line x1="8" y1="18" x2="8" y2="-15" stroke="#ffd54f" stroke-width="2"/>
+    <polygon points="8,-18 5,-12 11,-12" fill="#ffd54f"/>
+  </g>
+  <text x="105" y="348" text-anchor="middle" font-family="Georgia, serif" font-size="15" font-weight="bold" fill="#4a3728">AMAZON</text>
+  <text x="105" y="333" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#7a6a5a">The Warrior</text>
+  <text x="105" y="319" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#9a8a7a">Independence • Career</text>
+  <text x="105" y="307" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#9a8a7a">Achievement • Culture</text>
+
+  <!-- THE MEDIAL WOMAN - Bottom Right (Impersonal + Collective) -->
+  <g transform="translate(395, 395)">
+    <circle cx="0" cy="0" r="45" fill="#7b1fa2" stroke="#4a148c" stroke-width="2"/>
+    <!-- Third eye / mystical symbol -->
+    <ellipse cx="0" cy="-8" rx="8" ry="5" fill="#e1bee7" stroke="#4a148c" stroke-width="1"/>
+    <circle cx="0" cy="-8" r="3" fill="#4a148c"/>
+    <!-- Waves representing the unconscious -->
+    <path d="M-15 5 Q-10 0 -5 5 Q0 10 5 5 Q10 0 15 5" fill="none" stroke="#e1bee7" stroke-width="2"/>
+    <path d="M-12 12 Q-7 7 -2 12 Q3 17 8 12 Q13 7 18 12" fill="none" stroke="#ce93d8" stroke-width="2"/>
+  </g>
+  <text x="395" y="348" text-anchor="middle" font-family="Georgia, serif" font-size="15" font-weight="bold" fill="#4a3728">MEDIAL</text>
+  <text x="395" y="333" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#7a6a5a">The Medium</text>
+  <text x="395" y="319" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#9a8a7a">Spirituality • Intuition</text>
+  <text x="395" y="307" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#9a8a7a">Unconscious • Healing</text>
+
+  <!-- Opposing pairs indicators (dashed lines through center) -->
+  <!-- Mother <-> Amazon opposition -->
+  <path d="M105 105 L395 395" stroke="#4a3728" stroke-width="1" stroke-dasharray="4,4" opacity="0.4"/>
+  <!-- Hetaira <-> Medial opposition -->
+  <path d="M395 105 L105 395" stroke="#4a3728" stroke-width="1" stroke-dasharray="4,4" opacity="0.4"/>
+
+  <!-- Title at bottom -->
+  <text x="250" y="12" text-anchor="middle" font-family="Georgia, serif" font-size="10" fill="#9a8a7a">Structural Forms of the Feminine Psyche</text>
+  <text x="250" y="508" text-anchor="middle" font-family="Georgia, serif" font-size="11" fill="#7a6a5a" font-style="italic">Toni Wolff's Four Feminine Archetypes</text>
+</svg>
+

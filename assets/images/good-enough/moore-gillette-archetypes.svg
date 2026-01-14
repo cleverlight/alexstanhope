@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 410" width="400" height="400">
+  <!-- Background circle -->
+  <circle cx="200" cy="200" r="180" fill="none" stroke="#2c3e50" stroke-width="3"/>
+
+  <!-- Inner connecting circle -->
+  <circle cx="200" cy="200" r="120" fill="none" stroke="#95a5a6" stroke-width="1.5" stroke-dasharray="8,4"/>
+
+  <!-- Center point -->
+  <circle cx="200" cy="200" r="8" fill="#34495e"/>
+
+  <!-- Connecting lines from center to each archetype -->
+  <line x1="200" y1="200" x2="200" y2="50" stroke="#95a5a6" stroke-width="1.5"/>
+  <line x1="200" y1="200" x2="350" y2="200" stroke="#95a5a6" stroke-width="1.5"/>
+  <line x1="200" y1="200" x2="200" y2="350" stroke="#95a5a6" stroke-width="1.5"/>
+  <line x1="200" y1="200" x2="50" y2="200" stroke="#95a5a6" stroke-width="1.5"/>
+
+  <!-- KING - North (Top) - Crown symbol -->
+  <g transform="translate(200, 50)">
+    <circle cx="0" cy="0" r="35" fill="#f1c40f" stroke="#d4ac0d" stroke-width="2"/>
+    <!-- Crown icon -->
+    <path d="M-15 5 L-15 -5 L-10 0 L0 -10 L10 0 L15 -5 L15 5 Z" fill="#2c3e50"/>
+    <rect x="-15" y="5" width="30" height="6" fill="#2c3e50"/>
+  </g>
+  <text x="200" y="105" text-anchor="middle" font-family="Georgia, serif" font-size="16" font-weight="bold" fill="#2c3e50">KING</text>
+  <text x="200" y="122" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">Order • Leadership</text>
+
+  <!-- LOVER - East (Right) - Heart symbol -->
+  <g transform="translate(350, 200)">
+    <circle cx="0" cy="0" r="35" fill="#e74c3c" stroke="#c0392b" stroke-width="2"/>
+    <!-- Heart icon -->
+    <path d="M0 10 C-5 5, -12 -2, -12 -7 C-12 -12, -8 -15, -3 -15 C0 -15, 0 -12, 0 -10 C0 -12, 0 -15, 3 -15 C8 -15, 12 -12, 12 -7 C12 -2, 5 5, 0 10 Z" fill="white"/>
+  </g>
+  <text x="350" y="255" text-anchor="middle" font-family="Georgia, serif" font-size="16" font-weight="bold" fill="#2c3e50">LOVER</text>
+  <text x="350" y="272" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">Connection • Beauty</text>
+
+  <!-- WARRIOR - South (Bottom) - Sword/Shield symbol -->
+  <g transform="translate(200, 350)">
+    <circle cx="0" cy="0" r="35" fill="#e67e22" stroke="#d35400" stroke-width="2"/>
+    <!-- Sword icon -->
+    <rect x="-2" y="-15" width="4" height="20" fill="#2c3e50"/>
+    <rect x="-8" y="2" width="16" height="4" fill="#2c3e50"/>
+    <polygon points="0,-15 -4,-12 4,-12" fill="#2c3e50"/>
+    <rect x="-3" y="8" width="6" height="6" fill="#2c3e50"/>
+  </g>
+  <text x="200" y="303" text-anchor="middle" font-family="Georgia, serif" font-size="16" font-weight="bold" fill="#2c3e50">WARRIOR</text>
+  <text x="200" y="320" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">Discipline • Action</text>
+
+  <!-- MAGICIAN - West (Left) - Star/Wand symbol -->
+  <g transform="translate(50, 200)">
+    <circle cx="0" cy="0" r="35" fill="#9b59b6" stroke="#8e44ad" stroke-width="2"/>
+    <!-- Star icon -->
+    <polygon points="0,-12 3,-4 12,-4 5,2 7,11 0,6 -7,11 -5,2 -12,-4 -3,-4" fill="white"/>
+  </g>
+  <text x="50" y="255" text-anchor="middle" font-family="Georgia, serif" font-size="16" font-weight="bold" fill="#2c3e50">MAGICIAN</text>
+  <text x="50" y="272" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">Wisdom • Transformation</text>
+
+  <!-- Title -->
+  <text x="200" y="405" text-anchor="middle" font-family="Georgia, serif" font-size="12" fill="#7f8c8d" font-style="italic">Moore &amp; Gillette's Four Archetypes</text>
+</svg>
+

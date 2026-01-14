@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="500" height="500">
+  <!-- Background circle -->
+  <circle cx="250" cy="250" r="230" fill="none" stroke="#4a3728" stroke-width="3"/>
+
+  <!-- Inner connecting circle -->
+  <circle cx="250" cy="250" r="150" fill="none" stroke="#b8a090" stroke-width="1.5" stroke-dasharray="8,4"/>
+
+  <!-- Center point with feminine symbol -->
+  <circle cx="250" cy="250" r="25" fill="#f5e6d3" stroke="#4a3728" stroke-width="2"/>
+  <!-- Venus/feminine symbol in center -->
+  <circle cx="250" cy="243" r="10" fill="none" stroke="#4a3728" stroke-width="2"/>
+  <line x1="250" y1="253" x2="250" y2="268" stroke="#4a3728" stroke-width="2"/>
+  <line x1="243" y1="261" x2="257" y2="261" stroke="#4a3728" stroke-width="2"/>
+
+  <!-- Connecting lines from center to each archetype (7 points) -->
+  <!-- Angles: 0°, 51.4°, 102.9°, 154.3°, 205.7°, 257.1°, 308.6° (360/7 = ~51.4°) -->
+  <line x1="250" y1="250" x2="250" y2="45" stroke="#b8a090" stroke-width="1.5"/>
+  <line x1="250" y1="250" x2="410" y2="122" stroke="#b8a090" stroke-width="1.5"/>
+  <line x1="250" y1="250" x2="455" y2="315" stroke="#b8a090" stroke-width="1.5"/>
+  <line x1="250" y1="250" x2="330" y2="445" stroke="#b8a090" stroke-width="1.5"/>
+  <line x1="250" y1="250" x2="170" y2="445" stroke="#b8a090" stroke-width="1.5"/>
+  <line x1="250" y1="250" x2="45" y2="315" stroke="#b8a090" stroke-width="1.5"/>
+  <line x1="250" y1="250" x2="90" y2="122" stroke="#b8a090" stroke-width="1.5"/>
+
+  <!-- ARTEMIS - Top (0°) - The Huntress - Moon & Arrow -->
+  <g transform="translate(250, 45)">
+    <circle cx="0" cy="0" r="38" fill="#2e7d32" stroke="#1b5e20" stroke-width="2"/>
+    <!-- Crescent moon with arrow -->
+    <path d="M-8 -10 A12 12 0 0 1 -8 10 A8 8 0 0 0 -8 -10" fill="white"/>
+    <line x1="0" y1="12" x2="0" y2="-8" stroke="white" stroke-width="2"/>
+    <polygon points="0,-12 -4,-6 4,-6" fill="white"/>
+  </g>
+  <text x="250" y="100" text-anchor="middle" font-family="Georgia, serif" font-size="14" font-weight="bold" fill="#4a3728">ARTEMIS</text>
+  <text x="250" y="115" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#7a6a5a">The Huntress</text>
+  <text x="250" y="127" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#9a8a7a">Independence • Goals</text>
+
+  <!-- ATHENA - Upper Right (~51.4°) - The Warrior/Strategist - Owl/Shield -->
+  <g transform="translate(410, 122)">
+    <circle cx="0" cy="0" r="38" fill="#1565c0" stroke="#0d47a1" stroke-width="2"/>
+    <!-- Owl eyes (wisdom) -->
+    <circle cx="-7" cy="-3" r="6" fill="white"/>
+    <circle cx="7" cy="-3" r="6" fill="white"/>
+    <circle cx="-7" cy="-3" r="3" fill="#0d47a1"/>
+    <circle cx="7" cy="-3" r="3" fill="#0d47a1"/>
+    <!-- Owl beak -->
+    <polygon points="0,3 -3,8 3,8" fill="#ffd54f"/>
+  </g>
+  <text x="410" y="177" text-anchor="middle" font-family="Georgia, serif" font-size="14" font-weight="bold" fill="#4a3728">ATHENA</text>
+  <text x="410" y="192" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#7a6a5a">The Strategist</text>
+  <text x="410" y="204" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#9a8a7a">Wisdom • Logic</text>
+
+  <!-- APHRODITE - Right (~102.9°) - The Lover/Creative - Heart/Rose -->
+  <g transform="translate(455, 315)">
+    <circle cx="0" cy="0" r="38" fill="#e91e63" stroke="#c2185b" stroke-width="2"/>
+    <!-- Rose/flower shape -->
+    <circle cx="0" cy="0" r="8" fill="#ffcdd2"/>
+    <ellipse cx="0" cy="-12" rx="5" ry="8" fill="#f48fb1"/>
+    <ellipse cx="11" cy="-4" rx="5" ry="8" fill="#f48fb1" transform="rotate(72)"/>
+    <ellipse cx="7" cy="10" rx="5" ry="8" fill="#f48fb1" transform="rotate(144)"/>
+    <ellipse cx="-7" cy="10" rx="5" ry="8" fill="#f48fb1" transform="rotate(216)"/>
+    <ellipse cx="-11" cy="-4" rx="5" ry="8" fill="#f48fb1" transform="rotate(288)"/>
+  </g>
+  <text x="455" y="370" text-anchor="middle" font-family="Georgia, serif" font-size="14" font-weight="bold" fill="#4a3728">APHRODITE</text>
+  <text x="455" y="385" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#7a6a5a">The Lover</text>
+  <text x="455" y="397" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#9a8a7a">Passion • Beauty</text>
+
+  <!-- DEMETER - Lower Right (~154.3°) - The Nurturer/Mother - Wheat/Grain -->
+  <g transform="translate(330, 445)">
+    <circle cx="0" cy="0" r="38" fill="#8d6e63" stroke="#5d4037" stroke-width="2"/>
+    <!-- Wheat sheaf -->
+    <line x1="0" y1="12" x2="0" y2="-5" stroke="#ffcc80" stroke-width="2"/>
+    <ellipse cx="0" cy="-10" rx="3" ry="6" fill="#ffcc80"/>
+    <line x1="-6" y1="10" x2="-3" y2="-2" stroke="#ffcc80" stroke-width="2"/>
+    <ellipse cx="-4" cy="-7" rx="3" ry="5" fill="#ffcc80" transform="rotate(-15, -4, -7)"/>
+    <line x1="6" y1="10" x2="3" y2="-2" stroke="#ffcc80" stroke-width="2"/>
+    <ellipse cx="4" cy="-7" rx="3" ry="5" fill="#ffcc80" transform="rotate(15, 4, -7)"/>
+  </g>
+  <text x="330" y="403" text-anchor="middle" font-family="Georgia, serif" font-size="14" font-weight="bold" fill="#4a3728">DEMETER</text>
+  <text x="330" y="418" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#7a6a5a">The Mother</text>
+  <text x="330" y="430" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#9a8a7a">Nurturing • Creation</text>
+
+  <!-- PERSEPHONE - Lower Left (~205.7°) - The Maiden/Queen - Pomegranate -->
+  <g transform="translate(170, 445)">
+    <circle cx="0" cy="0" r="38" fill="#7b1fa2" stroke="#4a148c" stroke-width="2"/>
+    <!-- Pomegranate -->
+    <circle cx="0" cy="2" r="12" fill="#d32f2f"/>
+    <path d="M-3 -10 L0 -14 L3 -10 Z" fill="#4a148c"/>
+    <!-- Seeds visible -->
+    <circle cx="-4" cy="0" r="2" fill="#ffcdd2"/>
+    <circle cx="4" cy="0" r="2" fill="#ffcdd2"/>
+    <circle cx="0" cy="5" r="2" fill="#ffcdd2"/>
+    <circle cx="0" cy="-3" r="2" fill="#ffcdd2"/>
+  </g>
+  <text x="170" y="403" text-anchor="middle" font-family="Georgia, serif" font-size="14" font-weight="bold" fill="#4a3728">PERSEPHONE</text>
+  <text x="170" y="418" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#7a6a5a">The Maiden</text>
+  <text x="170" y="430" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#9a8a7a">Transformation • Growth</text>
+
+  <!-- HESTIA - Left (~257.1°) - The Hearth Keeper - Flame/Hearth -->
+  <g transform="translate(45, 315)">
+    <circle cx="0" cy="0" r="38" fill="#ff8f00" stroke="#e65100" stroke-width="2"/>
+    <!-- Hearth flame -->
+    <path d="M0 12 Q-8 0 -5 -8 Q-2 -2 0 -12 Q2 -2 5 -8 Q8 0 0 12 Z" fill="#fff3e0"/>
+    <path d="M0 10 Q-4 2 -2 -4 Q0 0 0 -6 Q0 0 2 -4 Q4 2 0 10 Z" fill="#ffcc80"/>
+  </g>
+  <text x="45" y="370" text-anchor="middle" font-family="Georgia, serif" font-size="14" font-weight="bold" fill="#4a3728">HESTIA</text>
+  <text x="45" y="385" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#7a6a5a">The Hearth Keeper</text>
+  <text x="45" y="397" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#9a8a7a">Calm • Inner Focus</text>
+
+  <!-- HERA - Upper Left (~308.6°) - The Queen - Crown/Peacock -->
+  <g transform="translate(90, 122)">
+    <circle cx="0" cy="0" r="38" fill="#6a1b9a" stroke="#4a148c" stroke-width="2"/>
+    <!-- Crown -->
+    <path d="M-12 5 L-12 -2 L-6 2 L0 -8 L6 2 L12 -2 L12 5 Z" fill="#ffd700"/>
+    <rect x="-12" y="5" width="24" height="5" fill="#ffd700"/>
+    <!-- Jewels on crown -->
+    <circle cx="0" cy="-3" r="2" fill="#e91e63"/>
+    <circle cx="-8" cy="1" r="1.5" fill="#4fc3f7"/>
+    <circle cx="8" cy="1" r="1.5" fill="#4fc3f7"/>
+  </g>
+  <text x="90" y="177" text-anchor="middle" font-family="Georgia, serif" font-size="14" font-weight="bold" fill="#4a3728">HERA</text>
+  <text x="90" y="192" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#7a6a5a">The Queen</text>
+  <text x="90" y="204" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#9a8a7a">Power • Partnership</text>
+
+  <!-- Title at bottom -->
+  <text x="250" y="498" text-anchor="middle" font-family="Georgia, serif" font-size="11" fill="#7a6a5a" font-style="italic">Jean Shinoda Bolen's Seven Goddess Archetypes</text>
+  <text x="250" y="12" text-anchor="middle" font-family="Georgia, serif" font-size="10" fill="#9a8a7a">Goddesses in Everywoman</text>
+</svg>
+
